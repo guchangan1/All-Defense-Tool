@@ -29,7 +29,7 @@
 | ------------- | ---------------------------------------------- | ------------------------------------------------------------ |
 | ShuiZe_0x727  | https://github.com/0x727/ShuiZe_0x727          | 一条龙服务，只需要输入根域名即可全方位收集相关资产，并检测漏洞。也可以输入多个域名、C段IP等，具体案例见下文。 |
 | nemo_go       | https://github.com/hanc00l/nemo_go             | nemo_go自动化信息收集                                        |
-| **gosint**    | **https://github.com/1in9e/gosint**            | **分布式资产信息收集和漏洞扫描平台**                         |
+| gosint        | https://github.com/1in9e/gosint                | 分布式资产信息收集和漏洞扫描平台                       |
 | ApolloScanner | https://github.com/b0bac/ApolloScanner         | 自动化巡航扫描框架（可用于红队打点评估）                     |
 |               |                                                |                                                              |
 | rengine       | https://github.com/yogeshojha/rengine          | 自动化侦查框架                                               |
@@ -37,7 +37,7 @@
 | 在线工具集    | https://github.com/iceyhexman/onlinetools      | 在线cms识别\|信息泄露\|工控\|系统\|物联网安全\|cms漏洞扫描\|nmap端口扫描\|子域名获取\|待续.. |
 | AlliN         | https://github.com/P1-Team/AlliN               | 一个辅助平常渗透测试项目或者攻防项目快速打点的综合工具       |
 | AWVS-GUI      | https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS | Acunetix Web漏洞扫描程序 GUI版本]                            |
-| vajra         | https://github.com/r3curs1v3-pr0xy/vajra       | [一个高度可定制Web自动化扫描框架](https://github.com/r3curs1v3-pr0xy/vajra) |
+| vajra         | https://github.com/r3curs1v3-pr0xy/vajra       | 一个高度可定制Web自动化扫描框架            |
 | bayonet       | https://github.com/CTF-MissFeng/bayonet        | 从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统         |
 | kscan         | https://github.com/lcvvvv/kscan                | 可针对指定IP段、资产清单、存活网段自动化进行端口扫描以及TCP指纹识别和Banner抓取 |
 
@@ -90,7 +90,7 @@
 | Golang实现Wappalyzer 指纹识别                            | https://github.com/projectdiscovery/wappalyzergo | wappalyzergo   |
 | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 | https://github.com/EASY233/Finger                | Finger         |
 | Glass是一款针对资产列表的快速指纹识别工具                | https://github.com/s7ckTeam/Glass                | Glass          |
-|                                                          |                                                  |                |
+| 功能齐全的Web指纹识别和分享平台，内置了一万多条互联网开源的指纹信息。|https://github.com/b1ackc4t/14Finger  |        14Finger        |
 
 
 
