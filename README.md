@@ -1,6 +1,7 @@
 # All-Defense-Tool
  首先恭喜你发现了宝藏。本项目集成了全网优秀的攻防武器项目，包含信息收集工具（自动化利用工具、资产发现工具、目录扫描工具、子域名收集工具....etc...），漏洞利用工具（各大CMS利用工具、中间件利用工具等项目），内网渗透工具、应急响应工具、甲方运维工具、等其他安全资料项目，供攻防双方使用。如果你有更好的建议，欢迎提出请求，本文收录全网优秀工具，欢迎大佬提交。
 # 目录
+
 * [信息收集工具](#信息收集工具)
   * [半/全自动化利用工具](#半全自动化利用工具)
   * [资产发现工具](#资产发现工具)
@@ -8,6 +9,7 @@
   * [目录扫描工具](#目录扫描工具)
   * [指纹识别工具](#指纹识别工具)
   * [端口扫描工具](#端口扫描工具)
+  * [Burp\+浏览器插件](#burp浏览器插件)
 * [漏洞利用工具](#漏洞利用工具)
   * [信息泄露利用工具](#信息泄露利用工具)
   * [漏洞扫描框架/工具](#漏洞扫描框架工具)
@@ -18,10 +20,13 @@
   * [爆破工具](#爆破工具)
   * [字典收集](#字典收集)
 * [内网渗透工具](#内网渗透工具)
+  * [webshell托管工具](#webshell托管工具)
+  * [密码提取工具](#密码提取工具)
+  * [横向移动工具](#横向移动工具)
+  * [隧道代理工具](#隧道代理工具)
 * [运维&amp;甲方&amp;防守方工具](#运维甲方防守方工具)
+  * [应急响应工具](#应急响应工具)
 * [安全资料整理](#安全资料整理)
-
-# 信息收集工具
 
 ## 半/全自动化利用工具
 
@@ -86,11 +91,11 @@
 | 项目简介                                                 | 项目地址                                         | 项目名称       |
 | -------------------------------------------------------- | ------------------------------------------------ | -------------- |
 | 红队重点攻击系统指纹探测工具                             | https://github.com/EdgeSecurityTeam/EHole        | EHole(棱洞)2.0 |
+| 功能齐全的Web指纹识别和分享平台，内置了一万多条互联网开源的指纹信息。|https://github.com/b1ackc4t/14Finger  |        14Finger        |
 | 一个web应用程序指纹识别工具                              | https://github.com/urbanadventurer/WhatWeb       | Whatweb        |
 | Golang实现Wappalyzer 指纹识别                            | https://github.com/projectdiscovery/wappalyzergo | wappalyzergo   |
 | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 | https://github.com/EASY233/Finger                | Finger         |
 | Glass是一款针对资产列表的快速指纹识别工具                | https://github.com/s7ckTeam/Glass                | Glass          |
-| 功能齐全的Web指纹识别和分享平台，内置了一万多条互联网开源的指纹信息。|https://github.com/b1ackc4t/14Finger  |        14Finger        |
 
 
 
@@ -109,9 +114,30 @@
 |                                                           |                                                       |            |
 |                                                           |                                                       |            |
 
+## Burp+浏览器插件
+
+| 项目简介                                               | 项目地址                                          | 项目名称                |
+| ------------------------------------------------------ | ------------------------------------------------- | ----------------------- |
+| 有关burpsuite的插件(非商店),文章以及使用技巧的收集     | https://github.com/Mr-xn/BurpSuite-collections    | BurpSuite-collections   |
+| 一款基于BurpSuite的被动式shiro检测插件                 | https://github.com/pmiaowu/BurpShiroPassiveScan   | BurpShiroPassiveScan    |
+| 一款基于BurpSuite的被动式FastJson检测插件              | https://github.com/pmiaowu/BurpFastJsonScan       | BurpFastJsonScan        |
+| fastjson漏洞burp插件，检测fastjson小于1.2.68基于dnslog | https://github.com/zilong3033/fastjsonScan        | fastjsonScan            |
+| HaE 请求高亮标记与信息提取的辅助型 BurpSuite 插件      | https://github.com/gh0stkey/HaE                   | HaE                     |
+| domain_hunter_pro 一个资产管理类的Burp插件             | https://github.com/bit4woo/domain_hunter_pro      | domain_hunter_pro       |
+| GadgetProbe Burp插件 用来爆破远程类查找Java反序列化    | https://github.com/BishopFox/GadgetProbe          | GadgetProbe             |
+| HopLa 自动补全 Payload 的 BurpSuite插件                | https://github.com/synacktiv/HopLa                | HopLa                   |
+| 验证码识别                                             | https://github.com/f0ng/captcha-killer-modified   | captcha-killer-modified |
+| 伪造ip地址                                             | https://github.com/TheKingOfDuck/burpFakeIP       | burpFakeIP              |
+| 自动发送请求                                           | https://github.com/nccgroup/AutoRepeater          | AutoRepeater            |
+|                                                        |                                                   |                         |
+| Hack-Tools  适用于红队的浏览器扩展插件                 | https://github.com/LasCC/Hack-Tools               | Hack-Tools              |
+| SwitchyOmega 浏览器的代理插件                          | https://github.com/FelisCatus/SwitchyOmega        | SwitchyOmega            |
+| Chrome插件.使用DevTools查找DOM XSS                     | https://github.com/filedescriptor/untrusted-types | untrusted-types         |
+| FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件        | https://github.com/fofapro/fofa_view              | fofa_view               |
+| mitaka 用于 OSINT 搜索的Chrome和Firefox扩展            | https://github.com/ninoseki/mitaka                | mitaka                  |
+| Git History 查看git存储库文件的历史记录                | https://githistory.xyz/                           | Git History             |
+
 # 漏洞利用工具
-
-
 
 ## 信息泄露利用工具
 
@@ -142,24 +168,24 @@
 
 ## 中间件漏洞利用工具
 
-| 项目简介                                                  | 项目地址                                                     | 项目名称                 |
-| --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------ |
-| 综合高危漏洞利用工具                                      | https://github.com/Liqunkit/LiqunKit_                        | LiqunKit                 |
-| Dubbo反序列化一键快速攻击测试工具                         | https://github.com/threedr3am/dubbo-exp                      | dubbo-exp                |
-| Shiro-550-with-NoCC 不依赖CC链利用工具                    | https://github.com/dr0op/shiro-550-with-NoCC                 | shiro-550-with-NoCC      |
-| shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马） | https://github.com/j1anFen/shiro_attack                      | shiro_attack             |
-| FastjonExploit \| Fastjson漏洞快速利用框架                | https://github.com/c0ny1/FastjsonExploit                     | FastjsonExploit          |
-| fastjson_rce_tool fastjson命令执行自动化利用工具          | https://github.com/wyzxxz/fastjson_rce_tool                  | fastjson_rce_tool        |
-| fastjson一键命令执行                                      | https://github.com/mrknow001/fastjson_rec_exploit            | fastjson_rec_exploit     |
-| Jboss（和 Java 反序列化漏洞）验证和利用工具               | https://github.com/joaomatosf/jexboss                        | exBoss                   |
-| weblogic利用工具weblogic-framework                        | https://github.com/0nise/weblogic-framework                  | weblogic-framework       |
-| woodpecker框架weblogic信息探测插件                        | https://github.com/woodpecker-appstore/weblogic-infodetector | weblogic-infodetector    |
-| jenkins-attack-framework 针对 Jenkins 的攻击框架          | https://github.com/Accenture                                 | jenkins-attack-framework |
-| Jiraffe 是为利用 Jira 实例而编写的半自动安全工具。        | https://github.com/0x48piraj/Jiraffe                         | Jiraffe                  |
-| STS2G Struts2漏洞扫描利用工具 - Golang版                  | https://github.com/xwuyi/STS2G                               | STS2G                    |
-| Struts2-Scan Struts2全漏洞扫描利用工具                    | https://github.com/HatBoy/Struts2-Scan                       | Struts2-Scan             |
-| spring boot Fat Jar 任意写文件漏洞到稳定 RCE 利用技巧     | https://github.com/LandGrey/spring-boot-upload-file-lead-to-rce-tricks | Fat Jar                  |
-|                                                           |                                                              |                          |
+| 项目简介                                                     | 项目地址                                                     | 项目名称                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
+| 综合高危漏洞利用工具                                         | https://github.com/Liqunkit/LiqunKit_                        | LiqunKit                 |
+| Spring系列漏洞利用工具                                       | https://github.com/SummerSec/SpringExploit                   | SpringExploit            |
+| shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题 | https://github.com/SummerSec/ShiroAttack2                    | ShiroAttack2             |
+| shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）    | https://github.com/j1anFen/shiro_attack                      | shiro_attack             |
+| FastjonExploit \| Fastjson漏洞快速利用框架                   | https://github.com/c0ny1/FastjsonExploit                     | FastjsonExploit          |
+| fastjson_rce_tool fastjson命令执行自动化利用工具             | https://github.com/wyzxxz/fastjson_rce_tool                  | fastjson_rce_tool        |
+| fastjson一键命令执行                                         | https://github.com/mrknow001/fastjson_rec_exploit            | fastjson_rec_exploit     |
+| Jboss（和 Java 反序列化漏洞）验证和利用工具                  | https://github.com/joaomatosf/jexboss                        | exBoss                   |
+| weblogic利用工具weblogic-framework                           | https://github.com/0nise/weblogic-framework                  | weblogic-framework       |
+| woodpecker框架weblogic信息探测插件                           | https://github.com/woodpecker-appstore/weblogic-infodetector | weblogic-infodetector    |
+| Dubbo反序列化一键快速攻击测试工具                            | https://github.com/threedr3am/dubbo-exp                      | dubbo-exp                |
+| jenkins-attack-framework 针对 Jenkins 的攻击框架             | https://github.com/Accenture                                 | jenkins-attack-framework |
+| Jiraffe 是为利用 Jira 实例而编写的半自动安全工具。           | https://github.com/0x48piraj/Jiraffe                         | Jiraffe                  |
+| STS2G Struts2漏洞扫描利用工具 - Golang版                     | https://github.com/xwuyi/STS2G                               | STS2G                    |
+| Struts2-Scan Struts2全漏洞扫描利用工具                       | https://github.com/HatBoy/Struts2-Scan                       | Struts2-Scan             |
+| spring boot Fat Jar 任意写文件漏洞到稳定 RCE 利用技巧        | https://github.com/LandGrey/spring-boot-upload-file-lead-to-rce-tricks | Fat Jar                  |
 
 ## 重点cms利用工具
 
@@ -232,12 +258,97 @@
 
 # 内网渗透工具
 
+## webshell托管工具
+
+| 项目简介                               | 项目地址                                    | 项目名称        |
+| -------------------------------------- | ------------------------------------------- | --------------- |
+| 哥斯拉                                 | https://github.com/BeichenDream/Godzilla    | Godzilla        |
+| “冰蝎”动态二进制加密网站管理客户端     | https://github.com/rebeyond/Behinder        | Behinder        |
+| 中国蚁剑是一款开源的跨平台网站管理工具 | https://github.com/AntSwordProject/antSword | antSword        |
+| 一句话WEB端管理工具                    | https://github.com/boy-hack/WebshellManager | WebshellManager |
+| 跨平台版中国菜刀                       | https://github.com/Chora10/Cknife           | Cknife          |
+
+## 密码提取工具
+
+| 项目简介                                                     | 项目地址                                          | 项目名称               |
+| ------------------------------------------------------------ | ------------------------------------------------- | ---------------------- |
+| 各种密码提取                                                 | https://github.com/kerbyj/goLazagne               | goLazagne              |
+| 用于读取常用程序密码，如Navicat、TeamViewer、FileZilla、WinSCP等 | https://github.com/RowTeam/SharpDecryptPwd        | SharpDecryptPwd        |
+| Xshell，Xftp密码解密工具                                     | https://github.com/JDArmy/SharpXDecrypt           | SharpXDecrypt          |
+| 解密浏览器数据（密码\|历史记录\|Cookie\|书签 \| 信用卡 \| 下载记录）的导出工具，支持全平台主流浏览器。 | https://github.com/moonD4rk/HackBrowserData/      | HackBrowserData        |
+| 一款针对向日葵的识别码和验证码提取工具                       | https://github.com/wafinfo/Sunflower_get_Password | Sunflower_get_Password |
+| 一键辅助抓取360安全浏览器密码的CobaltStrike脚本以及解密小工具 | https://github.com/hayasec/360SafeBrowsergetpass  | 360SafeBrowsergetpass  |
+| BrowserGhost  抓取浏览器密码的工具                           | https://github.com/QAX-A-Team/BrowserGhost        | BrowserGhost           |
+| win-brute-logon  无需权限破解任何 Microsoft Windows 用户密码 | https://github.com/DarkCoderSc/win-brute-logon    | win-brute-logon        |
+| TeamViewer：Bypass杀软 获取 Teamview 密码的工具              | https://github.com/wafinfo/TeamViewer             | TeamViewer             |
+| Xdecrypt Xshell  Xftp 密码解密                               | https://github.com/dzxs/Xdecrypt                  | Xdecrypt               |
+|                                                              |                                                   |                        |
+|                                                              |                                                   |                        |
+|                                                              |                                                   |                        |
+|                                                              |                                                   |                        |
+
+## 横向移动工具
+
+| 项目简介                                              | 项目地址                                         | 项目名称     |
+| ----------------------------------------------------- | ------------------------------------------------ | ------------ |
+| Mimikatz  Windows 密码抓取神器                        | https://github.com/gentilkiwi/mimikatz           | mimikatz     |
+| sharpwmi基于rpc的横向移动工具，具有上传和执行命令功能 | https://github.com/QAX-A-Team/sharpwmi           | sharpwmi     |
+| 文件下载命令快捷生成                                  | https://forum.ywhack.com/bountytips.php?download | 快捷命令     |
+| 反弹Shell命令一键生成                                 | https://forum.ywhack.com/shell.php               | 反弹shell    |
+| ATT&CK 横向移动总结技巧                               | https://attack.mitre.org/tactics/TA0008/         | attack       |
+| 将哈希传递到命名管道以进行令牌模拟                    | https://github.com/S3cur3Th1sSh1t/NamedPipePTH   | NamedPipePTH |
+| 常见横向移动与域控权限维持方法                        | https://xz.aliyun.com/t/9382                     | 方法论       |
+
+## 隧道代理工具
+
+| 项目简介                                                     | 项目地址                                   | 项目名称       |
+| ------------------------------------------------------------ | ------------------------------------------ | -------------- |
+| 全平台代理工具，支持多种socks协议                            | https://www.proxifier.com/                 | proxifier      |
+| 专注于内网穿透的高性能的反向代理应用                         | https://github.com/fatedier/frp            | frp            |
+| 轻量级、高性能、功能强大的内网穿透代理服务器                 | https://github.com/ehang-io/nps            | nps            |
+| 改进的reGeorg版本                                            | https://github.com/L-codes/Neo-reGeorg     | Neo-reGeorg    |
+| 是一款利用dns协议传输tcp数据的工具                           | https://github.com/alex-sector/dns2tcp     | dns2tcp        |
+| 是一个DNS隧道工具                                            | https://github.com/iagox86/dnscat2         | dnscat2        |
+| 内网渗透代理、端口转发工具                                   | http://rootkiter.com/Termite/              | Termite        |
+| 一个简单的 reverse ICMP shell                                | https://github.com/inquisb/icmpsh          | icmpsh         |
+| 正/反向代理，内网穿透，端口转发                              | https://github.com/inconshreveable/ngrok   | ngrok          |
+| pingtunnel 是把 tcp/udp/sock5 流量伪装成 icmp  流量进行转发的工具 | https://github.com/esrrhs/pingtunnel       | pingtunnel     |
+| pystinger - 一款使用webshell进行流量转发的出网工具           | https://github.com/FunnyWolf/pystinger     | pystinger      |
+| goproxy 一款轻量级、功能强大、高性能的多种代理工具           | https://github.com/snail007/goproxy        | goproxy        |
+| 一款可以在不出网的环境下进行反向代理及cs上线的工具           | https://github.com/Daybr4ak/C2ReverseProxy | C2ReverseProxy |
+
+
+
 # 运维&甲方&防守方工具
+
+## 应急响应工具
+
+| 项目简介                                                  | 项目地址                                              | 项目名称              |
+| --------------------------------------------------------- | ----------------------------------------------------- | --------------------- |
+| 主机侧Checklist的自动全面化检测脚本                       | https://github.com/grayddq/GScan                      | Gscan                 |
+| 应急响应实战笔记，一个安全工程师的自我修养                | https://github.com/Bypass007/Emergency-Response-Notes | Bypass007             |
+| linux信息收集/应急响应/常见后门/挖矿检测/webshell检测脚本 | https://github.com/al0ne/LinuxCheck                   | LinuxCheck            |
+| APT-Hunter Windows日志事件应急工具                        | https://github.com/ahmedkhlief/APT-Hunter             | APT-Hunter            |
+| uroboros-一个GNU/Linux监视和概要分析工具，专注于单个进程  | https://github.com/evilsocket/uroboros                | uroboros              |
+| whohk linux下一款强大的应急响应工具                       | https://github.com/heikanet/whohk                     | whohk                 |
+| Malwoverview 是用于威胁搜寻的第一响应工具                 | https://github.com/alexandreborges/malwoverview       | malwoverview          |
+| Attack Surface Analyzer 可以帮助您分析操作系统的安全配置  | https://github.com/Microsoft/AttackSurfaceAnalyzer    | AttackSurfaceAnalyzer |
+| 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具   | https://github.com/CRED-CLUB/ARTIF                    | ARTIF                 |
+| Rootkit Hunter Rootkit猎手                                | http://rkhunter.sourceforge.net/                      | Rootkit               |
+| SHELLPUB.COM 专注查杀 河马webshell查杀                    | https://www.shellpub.com/                             | 河马webshell          |
+| 火麒麟-网络安全应急响应工具(系统痕迹采集)                 | https://github.com/MountCloud/FireKylin               | FireKylin             |
+| 日志分析库,nuclei 的另一种用法                            | https://github.com/ffffffff0x/LOG-HUB                 | LOG-HUB               |
 
 # 安全资料整理
 
-- 
+正在整理中………………
 
 ------
-by--L0una(guchangan1)
+如果你有更好的提议或者其他想法，欢迎联系。
+
+<img src="../../../../Library/Mobile%20Documents/com~apple~CloudDocs/%E7%AC%94%E8%AE%B0/img/image-20220519215338754.png" alt="image-20220519215338754" style="zoom: 25%;" />
+
+​	by--L0una(guchangan1)
+
+
 
