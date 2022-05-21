@@ -2,8 +2,8 @@
  首先恭喜你发现了宝藏。本项目集成了全网优秀的攻防武器项目，包含信息收集工具（自动化利用工具、资产发现工具、目录扫描工具、子域名收集工具....etc...），漏洞利用工具（各大CMS利用工具、中间件利用工具等项目），内网渗透工具、应急响应工具、甲方运维工具、等其他安全资料项目，供攻防双方使用。如果你有更好的建议，欢迎提出请求，本文收录全网优秀工具，欢迎大佬提交。
 # 目录
 
+* [半/全自动化利用工具](#半全自动化利用工具)
 * [信息收集工具](#信息收集工具)
-  * [半/全自动化利用工具](#半全自动化利用工具)
   * [资产发现工具](#资产发现工具)
   * [子域名收集工具](#子域名收集工具)
   * [目录扫描工具](#目录扫描工具)
@@ -25,10 +25,15 @@
   * [横向移动工具](#横向移动工具)
   * [隧道代理工具](#隧道代理工具)
 * [运维&amp;甲方&amp;防守方工具](#运维甲方防守方工具)
-  * [应急响应工具](#应急响应工具)
+  * [Linux应急响应工具](#linux应急响应工具)
+  * [Windows应急响应工具](#windows应急响应工具)
+  * [内存马查杀工具](#内存马查杀工具)
+  * [xxxx](#xxxx)
 * [安全资料整理](#安全资料整理)
 
-## 半/全自动化利用工具
+
+
+# 半/全自动化利用工具
 
 | 项目名称      | 项目地址                                       | 项目简介                                                     |
 | ------------- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -45,6 +50,8 @@
 | vajra         | https://github.com/r3curs1v3-pr0xy/vajra       | 一个高度可定制Web自动化扫描框架            |
 | bayonet       | https://github.com/CTF-MissFeng/bayonet        | 从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统         |
 | kscan         | https://github.com/lcvvvv/kscan                | 可针对指定IP段、资产清单、存活网段自动化进行端口扫描以及TCP指纹识别和Banner抓取 |
+
+# 信息收集工具
 
 ## 资产发现工具
 
@@ -108,9 +115,9 @@
 | naabu 用 go 编写的快速端口扫描器                          | https://github.com/projectdiscovery/naabu             | naabu      |
 | masnmapscan 一款端口扫描器。整合了masscan和nmap两款扫描器 | https://github.com/hellogoldsnakeman/masnmapscan-V1.0 | 整合扫描器 |
 | gonmap是一个go语言的nmap端口扫描库                        | https://github.com/lcvvvv/gonmap                      | gonmap     |
+| 光速扫描                                                  | http://pan.baidu.com/s/1pLjaQKF                       | 小米范     |
 | 在线端口扫描1                                             | http://coolaf.com/tool/port                           | 在线工具   |
 | 在线端口扫描2                                             | http://tool.cc/port/                                  | 在线工具2  |
-|                                                           |                                                       | 小米范     |
 |                                                           |                                                       |            |
 |                                                           |                                                       |            |
 
@@ -136,6 +143,7 @@
 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件        | https://github.com/fofapro/fofa_view              | fofa_view               |
 | mitaka 用于 OSINT 搜索的Chrome和Firefox扩展            | https://github.com/ninoseki/mitaka                | mitaka                  |
 | Git History 查看git存储库文件的历史记录                | https://githistory.xyz/                           | Git History             |
+| 一款可以检测WEB蜜罐并阻断请求的Chrome插件              | https://github.com/cnrstar/anti-honeypot          | anti-honeypot           |
 
 # 漏洞利用工具
 
@@ -189,19 +197,22 @@
 
 ## 重点cms利用工具
 
-| 项目简介                                              | 项目地址                                                 | 项目名称                    |
-| ----------------------------------------------------- | -------------------------------------------------------- | --------------------------- |
-| 致远OA综合利用工具                                    | https://github.com/Summer177/seeyon_exp                  | seeyon_exp                  |
-| 通达OA综合利用工具                                    | https://github.com/xinyu2428/TDOA_RCE                    | TDOA_RCE                    |
-| 蓝凌OA漏洞利用工具/前台无条件RCE/文件写入             | https://github.com/yuanhaiGreg/LandrayExploit            | LandrayExploit              |
-| 泛微OA漏洞综合利用脚本                                | https://github.com/z1un/weaver_exp                       | weaver_exp                  |
-| 锐捷网络EG易网关RCE批量安全检测                       | https://github.com/Tas9er/EgGateWayGetShell              | EgGateWayGetShell           |
-| CMSmap 针对流行CMS进行安全扫描的工具                  | https://github.com/Dionach/CMSmap                        | CMSmap                      |
-| 使用Go开发的WordPress漏洞扫描工具                     | https://github.com/blackbinn/wprecon                     | wprecon                     |
-| 一个 Ruby 框架，旨在帮助对 WordPress 系统进行渗透测试 | https://github.com/rastating/wordpress-exploit-framework | wordpress-exploit-framework |
-| WPScan WordPress 安全扫描器                           | https://github.com/wpscanteam/wpscan                     | wpscan                      |
-| WPForce Wordpress 攻击套件                            | https://github.com/n00py/WPForce                         | WPForce                     |
-|                                                       |                                                          |                             |
+| 项目简介                                                     | 项目地址                                                 | 项目名称                    |
+| ------------------------------------------------------------ | -------------------------------------------------------- | --------------------------- |
+| 综合高危漏洞利用工具                                         | https://github.com/Liqunkit/LiqunKit_                    | LiqunKit                    |
+| 致远OA综合利用工具                                           | https://github.com/Summer177/seeyon_exp                  | seeyon_exp                  |
+| 通达OA综合利用工具                                           | https://github.com/xinyu2428/TDOA_RCE                    | TDOA_RCE                    |
+| 蓝凌OA漏洞利用工具/前台无条件RCE/文件写入                    | https://github.com/yuanhaiGreg/LandrayExploit            | LandrayExploit              |
+| 泛微OA漏洞综合利用脚本                                       | https://github.com/z1un/weaver_exp                       | weaver_exp                  |
+| 锐捷网络EG易网关RCE批量安全检测                              | https://github.com/Tas9er/EgGateWayGetShell              | EgGateWayGetShell           |
+| CMSmap 针对流行CMS进行安全扫描的工具                         | https://github.com/Dionach/CMSmap                        | CMSmap                      |
+| 使用Go开发的WordPress漏洞扫描工具                            | https://github.com/blackbinn/wprecon                     | wprecon                     |
+| 一个 Ruby 框架，旨在帮助对 WordPress 系统进行渗透测试        | https://github.com/rastating/wordpress-exploit-framework | wordpress-exploit-framework |
+| WPScan WordPress 安全扫描器                                  | https://github.com/wpscanteam/wpscan                     | wpscan                      |
+| WPForce Wordpress 攻击套件                                   | https://github.com/n00py/WPForce                         | WPForce                     |
+| 漏洞POC基本适用ThinkPHP全版本漏洞                            | https://github.com/zangcc/Aazhen-v3.1                    | Aazhen-v3.1                 |
+| Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。 | https://github.com/Lotus6/ThinkphpGUI                    | ThinkphpGUI                 |
+| ThinkPHP 漏洞 综合利用工具, 图形化界面, 命令执行, 一键getshell, 批量检测, 日志遍历, session包含, 宝塔绕过 | https://github.com/bewhale/thinkphp_gui_tools            | thinkphp_gui_tools          |
 
 ## 常规漏洞利用工具
 
@@ -227,34 +238,34 @@
 
 ## 爆破工具
 
-| 项目简介                                            | 项目地址                                                     | 项目名称              |
-| --------------------------------------------------- | ------------------------------------------------------------ | --------------------- |
-| 集合了fscan和kscan等优秀工具功能的扫描爆破工具。    | https://github.com/i11us0ry/goon                             | goon                  |
-| 超级弱口令检查工具是一款Windows平台的弱口令审计工具 | https://github.com/shack2/SNETCracker                        | 超级弱口令检查工具    |
-| Web-Brutator 中间件接口爆破                         | https://github.com/koutto/web-brutator                       | Web-Brutator          |
-| WebCrack是一款web后台弱口令/万能密码批量检测工具    | https://github.com/yzddmr6/WebCrack                          | WebCrack              |
-| zero-crack Web应用(webapps)暴力破解小工具           | https://github.com/0-sec/zero-crack                          | zero-crack            |
-| WordPress 超级快速暴力破解工具                      | https://github.com/22XploiterCrew-Team/WordPress-Brute-Force | WordPress-Brute-Force |
-| ssb 一种更快更简单的爆破SSH服务器的工具             | https://github.com/kitabisa/ssb                              | ssh爆破               |
-| rsync弱密码扫描(爆破)                               | https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py | rsync                 |
-|                                                     |                                                              |                       |
+| 项目简介                                            | 项目地址                                                     | 项目名称     |
+| --------------------------------------------------- | ------------------------------------------------------------ | ------------ |
+| 集合了fscan和kscan等优秀工具功能的扫描爆破工具。    | https://github.com/i11us0ry/goon                             | goon         |
+| 超级弱口令检查工具是一款Windows平台的弱口令审计工具 | https://github.com/shack2/SNETCracker                        | 超级弱口令   |
+| Web-Brutator 中间件接口爆破                         | https://github.com/koutto/web-brutator                       | Web-Brutator |
+| WebCrack是一款web后台弱口令/万能密码批量检测工具    | https://github.com/yzddmr6/WebCrack                          | WebCrack     |
+| zero-crack Web应用(webapps)暴力破解小工具           | https://github.com/0-sec/zero-crack                          | zero-crack   |
+| WordPress 超级快速暴力破解工具                      | https://github.com/22XploiterCrew-Team/WordPress-Brute-Force | WordPress    |
+| ssb 一种更快更简单的爆破SSH服务器的工具             | https://github.com/kitabisa/ssb                              | ssh爆破      |
+| rsync弱密码扫描(爆破)                               | https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py | rsync        |
+|                                                     |                                                              |              |
 
 ## 字典收集
 
-| 项目简介                                              | 项目地址                                                   | 项目名称                 |
-| ----------------------------------------------------- | ---------------------------------------------------------- | ------------------------ |
-| -  在线整理的一些常见默认设备/应用密码                | https://forum.ywhack.com/bountytips.php?password           | EdgeTeam                 |
-| - 在线整理的一些华为系列设备默认密码表                | https://forum.ywhack.com/bountytips.php?huawei             | EdgeTeam                 |
-| -  渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目 | https://github.com/insightglacier/Dictionary-Of-Pentesting | Dictionary-Of-Pentesting |
-| Fuzz 字典,一个就够了                                  | https://github.com/TheKingOfDuck/fuzzDicts                 | Web Pentesting           |
-| - Web 模糊测试字典与一些Payloads                      | https://github.com/gh0stkey/Web-Fuzzing-Box                | Web Fuzzing Box          |
-| 上传漏洞fuzz字典生成脚本                              | https://github.com/c0ny1/upload-fuzz-dic-builder           | upload-fuzz-dic-builder  |
-| 安全评估期间使用的多种类型列表的集合                  | https://github.com/danielmiessler/SecLists                 | SecLists                 |
-| 渗透测试仪和Bug赏金猎人的 Payload 库                  | https://github.com/sh377c0d3/Payloads                      | Payloads                 |
-| 基于实战沉淀下的各种弱口令字典                        | https://github.com/fuzz-security/SuperWordlist             | SuperWordlist            |
-| 各类漏洞的 TOP25 参数字典                             | https://github.com/lutfumertceylan/top25-parameter         | top25-parameter          |
-| 提取收集以往泄露的密码中符合条件的强弱密码            | https://github.com/r35tart/RW_Password                     | RW_Password              |
-|                                                       |                                                            |                          |
+| 项目简介                                           | 项目地址                                                   | 项目名称                 |
+| -------------------------------------------------- | ---------------------------------------------------------- | ------------------------ |
+| 在线整理的一些常见默认设备/应用密码                | https://forum.ywhack.com/bountytips.php?password           | EdgeTeam                 |
+| 在线整理的一些华为系列设备默认密码表               | https://forum.ywhack.com/bountytips.php?huawei             | EdgeTeam                 |
+| 渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目 | https://github.com/insightglacier/Dictionary-Of-Pentesting | Dictionary-Of-Pentesting |
+| Fuzz 字典,一个就够了                               | https://github.com/TheKingOfDuck/fuzzDicts                 | Web Pentesting           |
+| Web 模糊测试字典与一些Payloads                     | https://github.com/gh0stkey/Web-Fuzzing-Box                | Web Fuzzing Box          |
+| 上传漏洞fuzz字典生成脚本                           | https://github.com/c0ny1/upload-fuzz-dic-builder           | upload-fuzz-dic-builder  |
+| 安全评估期间使用的多种类型列表的集合               | https://github.com/danielmiessler/SecLists                 | SecLists                 |
+| 渗透测试仪和Bug赏金猎人的 Payload 库               | https://github.com/sh377c0d3/Payloads                      | Payloads                 |
+| 基于实战沉淀下的各种弱口令字典                     | https://github.com/fuzz-security/SuperWordlist             | SuperWordlist            |
+| 各类漏洞的 TOP25 参数字典                          | https://github.com/lutfumertceylan/top25-parameter         | top25-parameter          |
+| 提取收集以往泄露的密码中符合条件的强弱密码         | https://github.com/r35tart/RW_Password                     | RW_Password              |
+|                                                    |                                                            |                          |
 
 # 内网渗透工具
 
@@ -321,34 +332,68 @@
 
 # 运维&甲方&防守方工具
 
-## 应急响应工具
+## Linux应急响应工具
 
-| 项目简介                                                  | 项目地址                                              | 项目名称              |
-| --------------------------------------------------------- | ----------------------------------------------------- | --------------------- |
-| 主机侧Checklist的自动全面化检测脚本                       | https://github.com/grayddq/GScan                      | Gscan                 |
-| 应急响应实战笔记，一个安全工程师的自我修养                | https://github.com/Bypass007/Emergency-Response-Notes | Bypass007             |
-| linux信息收集/应急响应/常见后门/挖矿检测/webshell检测脚本 | https://github.com/al0ne/LinuxCheck                   | LinuxCheck            |
-| APT-Hunter Windows日志事件应急工具                        | https://github.com/ahmedkhlief/APT-Hunter             | APT-Hunter            |
-| uroboros-一个GNU/Linux监视和概要分析工具，专注于单个进程  | https://github.com/evilsocket/uroboros                | uroboros              |
-| whohk linux下一款强大的应急响应工具                       | https://github.com/heikanet/whohk                     | whohk                 |
-| Malwoverview 是用于威胁搜寻的第一响应工具                 | https://github.com/alexandreborges/malwoverview       | malwoverview          |
-| Attack Surface Analyzer 可以帮助您分析操作系统的安全配置  | https://github.com/Microsoft/AttackSurfaceAnalyzer    | AttackSurfaceAnalyzer |
-| 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具   | https://github.com/CRED-CLUB/ARTIF                    | ARTIF                 |
-| Rootkit Hunter Rootkit猎手                                | http://rkhunter.sourceforge.net/                      | Rootkit               |
-| SHELLPUB.COM 专注查杀 河马webshell查杀                    | https://www.shellpub.com/                             | 河马webshell          |
-| 火麒麟-网络安全应急响应工具(系统痕迹采集)                 | https://github.com/MountCloud/FireKylin               | FireKylin             |
-| 日志分析库,nuclei 的另一种用法                            | https://github.com/ffffffff0x/LOG-HUB                 | LOG-HUB               |
+| 项目简介                                                  | 项目地址                                              | 项目名称     |
+| --------------------------------------------------------- | ----------------------------------------------------- | ------------ |
+| 主机侧Checklist的自动全面化检测脚本                       | https://github.com/grayddq/GScan                      | Gscan        |
+| 应急响应实战笔记，一个安全工程师的自我修养                | https://github.com/Bypass007/Emergency-Response-Notes | Bypass007    |
+| linux信息收集/应急响应/常见后门/挖矿检测/webshell检测脚本 | https://github.com/al0ne/LinuxCheck                   | LinuxCheck   |
+| uroboros-一个GNU/Linux监视和概要分析工具，专注于单个进程  | https://github.com/evilsocket/uroboros                | uroboros     |
+| whohk linux下一款强大的应急响应工具                       | https://github.com/heikanet/whohk                     | whohk        |
+| Malwoverview 是用于威胁搜寻的第一响应工具                 | https://github.com/alexandreborges/malwoverview       | malwoverview |
+| Rootkit Hunter Rootkit猎手                                | http://rkhunter.sourceforge.net/                      | Rootkitr     |
+|                                                           |                                                       |              |
+|                                                           |                                                       |              |
+|                                                           |                                                       |              |
+|                                                           |                                                       |              |
+|                                                           |                                                       |              |
+|                                                           |                                                       |              |
+
+## Windows应急响应工具
+
+| 项目简介                                                 | 项目地址                                           | 项目名称              |
+| -------------------------------------------------------- | -------------------------------------------------- | --------------------- |
+| APT-Hunter Windows日志事件应急工具                       | https://github.com/ahmedkhlief/APT-Hunter          | APT-Hunter            |
+| Attack Surface Analyzer 可以帮助您分析操作系统的安全配置 | https://github.com/Microsoft/AttackSurfaceAnalyzer | AttackSurfaceAnalyzer |
+| SHELLPUB.COM 专注查杀 河马webshell查杀                   | https://www.shellpub.com/                          | 河马webshell          |
+| 火麒麟-网络安全应急响应工具(系统痕迹采集)                | https://github.com/MountCloud/FireKylin            | FireKylin             |
+| 日志分析库,nuclei 的另一种用法                           | https://github.com/ffffffff0x/LOG-HUB              | LOG-HUB               |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+|                                                          |                                                    |                       |
+
+## 内存马查杀工具
+
+| 项目简介                                       | 项目地址                                       | 项目名称              |
+| ---------------------------------------------- | ---------------------------------------------- | --------------------- |
+| Alibaba Java诊断利器Arthas                     | https://github.com/alibaba/arthas              | arthas                |
+| 检测绝大部分所谓的内存免杀马                   | https://github.com/huoji120/DuckMemoryScan     | DuckMemoryScan        |
+| 通过jsp脚本扫描java web Filter/Servlet型内存马 | https://github.com/c0ny1/java-memshell-scanner | java-memshell-scanner |
+| A java memory web shell extracting tool        | https://github.com/LandGrey/copagent           | copagent              |
+| 杀内存马的小工具                               | https://github.com/r00t4dm/aLIEz               | aLIEz                 |
+
+## xxxx
+
+| 项目简介                                                | 项目地址                           | 项目名称 |
+| ------------------------------------------------------- | ---------------------------------- | -------- |
+| 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具 | https://github.com/CRED-CLUB/ARTIF | ARTIF    |
 
 # 安全资料整理
 
 正在整理中………………
 
 ------
+https://github.com/guchangan1/image/blob/main/%E5%BE%AE%E4%BF%A1.jpeg
+
 如果你有更好的提议或者其他想法，欢迎联系。
 
-<img src="../../../../Library/Mobile%20Documents/com~apple~CloudDocs/%E7%AC%94%E8%AE%B0/img/image-20220519215338754.png" alt="image-20220519215338754" style="zoom: 25%;" />
-
-​	by--L0una(guchangan1)
+by--L0una(guchangan1)
 
 
 
