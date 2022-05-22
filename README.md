@@ -389,7 +389,7 @@
 正在整理中………………
 
 ------
-![]https://github.com/guchangan1/image/blob/main/%E5%BE%AE%E4%BF%A1.jpeg
+<img src="https://github.com/guchangan1/image/blob/main/%E5%BE%AE%E4%BF%A1.jpeg" width="200" height="200" alt="微信"/><br/>
 
 如果你有更好的提议或者其他想法，欢迎联系。
 
