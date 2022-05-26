@@ -9,7 +9,8 @@
   * [目录扫描工具](#目录扫描工具)
   * [指纹识别工具](#指纹识别工具)
   * [端口扫描工具](#端口扫描工具)
-  * [Burp\+浏览器插件](#burp浏览器插件)
+  * [Burp插件](#burp插件)
+  * [浏览器插件](#浏览器插件)
 * [漏洞利用工具](#漏洞利用工具)
   * [信息泄露利用工具](#信息泄露利用工具)
   * [漏洞扫描框架/工具](#漏洞扫描框架工具)
@@ -30,8 +31,9 @@
   * [内存马查杀工具](#内存马查杀工具)
   * [xxxx](#xxxx)
 * [安全资料整理](#安全资料整理)
-
-
+  * [红蓝资料集锦](#红蓝资料集锦)
+  * [云安全资料](#云安全资料)
+  * [靶场清单](#靶场清单)
 
 # 半/全自动化利用工具
 
@@ -57,16 +59,18 @@
 
 ## 资产发现工具
 
-| 项目简介                                                | 项目地址                                    | 项目名称                            |
-| ------------------------------------------------------- | ------------------------------------------- | ----------------------------------- |
-| reconFTW 集成了30个工具的信息收集利器                   | https://github.com/six2dez/reconftw         | reconftw                            |
-| 资产无限巡航扫描系统                                    | https://github.com/awake1t/linglong         | linglong                            |
-| SRC子域名资产监控                                       | https://github.com/LangziFun/LangSrcCurise  | LangSrcCurise                       |
-| 快速侦察与目标关联的互联网资产，构建基础资产信息库。    | https://github.com/TophantTechnology/ARL    | ARL(灯塔)                           |
-| 移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具 | https://github.com/kelvinBen/AppInfoScanner | AppInfoScanner                      |
-| Grecon                                                  | https://github.com/TebbaaX/GRecon           | 集成GoogleHacking语法来进行信息收集 |
-| waybackurls                                             | https://github.com/tomnomnom/waybackurls    | 从第三方平台获取目标网页内容        |
-|                                                         |                                             |                                     |
+| 项目简介                                                     | 项目地址                                    | 项目名称       |
+| ------------------------------------------------------------ | ------------------------------------------- | -------------- |
+| reconFTW 集成了30个工具的信息收集利器                        | https://github.com/six2dez/reconftw         | reconftw       |
+| 资产无限巡航扫描系统                                         | https://github.com/awake1t/linglong         | linglong       |
+| SRC子域名资产监控                                            | https://github.com/LangziFun/LangSrcCurise  | LangSrcCurise  |
+| 快速侦察与目标关联的互联网资产，构建基础资产信息库。         | https://github.com/TophantTechnology/ARL    | ARL(灯塔)      |
+| 移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具      | https://github.com/kelvinBen/AppInfoScanner | AppInfoScanner |
+| 集成GoogleHacking语法来进行信息收集                          | https://github.com/TebbaaX/GRecon           | Grecon         |
+| 从第三方平台获取目标网页内容                                 | https://github.com/tomnomnom/waybackurls    | waybackurls    |
+| 调用ZoomEye的官方api---GUI界面（未来可能兼容fofa、hunter、quake） | https://github.com/xzajyjs/ThunderSearch    | ThunderSearch  |
+| 一个简单实用的FOFA客户端 By flashine                         | https://github.com/wgpsec/fofa_viewer       | fofa_viewer    |
+| icp备案查询、企业资产快速收集工具                            | https://github.com/SiJiDo/IEyes             | IEyes          |
 
 ## 子域名收集工具
 
@@ -161,17 +165,17 @@
 
 ## 信息泄露利用工具
 
-| 项目简介                                                     | 项目地址                                  | 项目名称      |
-| ------------------------------------------------------------ | ----------------------------------------- | ------------- |
-| swagger-exp Swagger  REST API 信息泄露利用工具               | https://github.com/lijiejie/swagger-exp   | swagger-exp   |
-| swagger-hack 自动化爬取并测试所有swagger-ui.html接口         | https://github.com/jayus0821/swagger-hack | swagger-hack  |
-| Packer Fuzzer  针对Webpack等前端打包工具所构造的网站进行检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer   | Packer-Fuzzer |
-| SvnExploit支持SVN源代码泄露全版本Dump源码                    | https://github.com/admintony/svnExploit   | svnExploit    |
-| git-dumper 从网站转储git存储库的工具                         | https://github.com/arthaud/git-dumper     | git-dumper    |
-| GitDorker  通过使用大型的dorks库来从GitHub抓取敏感信息       | https://github.com/obheda12/GitDorker     | GitDorker     |
-| 从JavaScript文件中提取敏感信息                               | https://github.com/m4ll0k/SecretFinder    | SecretFinder  |
-| 功能比较多的一个JavaScript侦查自动化脚本                     | https://github.com/KathanP19/JSFScan.sh   | JSFScan       |
-|                                                              |                                           |               |
+| 项目简介                                                     | 项目地址                                                  | 项目名称                          |
+| ------------------------------------------------------------ | --------------------------------------------------------- | --------------------------------- |
+| 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
+| swagger-exp Swagger  REST API 信息泄露利用工具               | https://github.com/lijiejie/swagger-exp                   | swagger-exp                       |
+| swagger-hack 自动化爬取并测试所有swagger-ui.html接口         | https://github.com/jayus0821/swagger-hack                 | swagger-hack                      |
+| Packer Fuzzer  针对Webpack等前端打包工具所构造的网站进行检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer                   | Packer-Fuzzer                     |
+| SvnExploit支持SVN源代码泄露全版本Dump源码                    | https://github.com/admintony/svnExploit                   | svnExploit                        |
+| git-dumper 从网站转储git存储库的工具                         | https://github.com/arthaud/git-dumper                     | git-dumper                        |
+| GitDorker  通过使用大型的dorks库来从GitHub抓取敏感信息       | https://github.com/obheda12/GitDorker                     | GitDorker                         |
+| 从JavaScript文件中提取敏感信息                               | https://github.com/m4ll0k/SecretFinder                    | SecretFinder                      |
+| 功能比较多的一个JavaScript侦查自动化脚本                     | https://github.com/KathanP19/JSFScan.sh                   | JSFScan                           |
 
 ## 漏洞扫描框架/工具
 
@@ -398,6 +402,44 @@
 | 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具 | https://github.com/CRED-CLUB/ARTIF | ARTIF    |
 
 # 安全资料整理
+
+## 红蓝资料集锦
+
+| 项目简介                                                     | 项目地址                                     | 项目名称            |
+| ------------------------------------------------------------ | -------------------------------------------- | ------------------- |
+| 红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具 | https://github.com/Mr-xn/RedTeam_BlueTeam_HW | RedTeam_BlueTeam_HW |
+|                                                              |                                              |                     |
+
+## 云安全资料
+
+| 项目简介                         | 项目地址                                                  | 项目名称                          |
+| -------------------------------- | --------------------------------------------------------- | --------------------------------- |
+| 也许这是国内第一个云安全知识文库 | https://wiki.teamssix.com/About/                          | T Wiki                            |
+| 从零开始的Kubernetes攻防         | https://github.com/neargle/my-re0-k8s-security            | my-re0-k8s-security               |
+| 六大云存储，泄露利用检测工具     | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
+
+## 靶场清单
+
+通用漏洞类：
+
+| 项目简介                                                     | 项目地址                                         | 项目名称             |
+| ------------------------------------------------------------ | ------------------------------------------------ | -------------------- |
+| Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。 | https://github.com/fofapro/vulfocus              | vulfocus             |
+| 基于 Docker-Compose 的预建易受攻击环境                       | https://github.com/vulhub/vulhub                 | vulhub               |
+| Spring Boot 相关漏洞学习资料，利用方法和技巧合               | https://github.com/LandGrey/SpringBootVulExploit | SpringBootVulExploit |
+|                                                              |                                                  |                      |
+|                                                              |                                                  |                      |
+
+基础漏洞类：
+
+| 项目简介                                        | 项目地址                                                     | 项目名称       |
+| ----------------------------------------------- | ------------------------------------------------------------ | -------------- |
+| 基础漏洞靶场                                    | https://dvwa.co.uk/                                          | dvwa           |
+| 常见的web漏洞                                   | https://www.pentesterlab.com/exercises/web_for_pentester/course | pentesterlab   |
+| Java漏洞平台                                    | https://github.com/j3ers3/Hello-Java-Sec                     | Hello-Java-Sec |
+| JAVA 漏洞靶场                                   | https://github.com/tangxiaofeng7/SecExample                  | SecExample     |
+| 一个想帮你总结所有类型的上传漏洞的靶场          | https://github.com/c0ny1/upload-labs                         | upload-labs    |
+| SQLI 实验室测试基于错误、基于布尔值、基于时间。 | https://github.com/Audi-1/sqli-labs                          | sqli-labs      |
 
 正在整理中………………
 
