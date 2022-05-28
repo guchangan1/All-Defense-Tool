@@ -46,7 +46,7 @@
 
 温馨提醒：不要沉迷于攻防而忘了吃饭喔~
 
-- 程序员在家做饭方法指南。（https://github.com/Anduin2017/HowToCook）
+- 程序员在家做饭方法指南。https://github.com/Anduin2017/HowToCook
 
 # 半/全自动化利用工具
 
