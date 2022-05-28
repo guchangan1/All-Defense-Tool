@@ -1,5 +1,12 @@
 # All-Defense-Tool
- 首先恭喜你发现了宝藏。本项目集成了全网优秀的攻防武器项目，包含信息收集工具（自动化利用工具、资产发现工具、目录扫描工具、子域名收集工具....etc...），漏洞利用工具（各大CMS利用工具、中间件利用工具等项目），内网渗透工具、应急响应工具、甲方运维工具、等其他安全资料项目，供攻防双方使用。如果你有更好的建议，欢迎提出请求，本文收录全网优秀工具，欢迎大佬提交。
+​	 首先恭喜你发现了宝藏。本项目集成了全网优秀的开源攻防武器项目，包含信息收集工具（自动化利用工具、资产发现工具、目录扫描工具、子域名收集工具、指纹识别工具、端口扫描工具、各种插件....etc...），漏洞利用工具（各大CMS利用工具、中间件利用工具等项目........），内网渗透工具（隧道代理、密码提取.....）、应急响应工具、甲方运维工具、等其他安全攻防资料整理，供攻防双方使用。如果你有更好的建议，欢迎提出请求。
+
+## 免责声明
+
+1. `本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关.`
+2. `本文档所有内容、新闻皆不代表本人态度、立场,如果有建议或方案,欢迎提交 issues`
+3. `不会收取任何广告费用,推荐的所有工具链接与本人无任何利害关系`
+
 # 目录
 
 * [半/全自动化利用工具](#半全自动化利用工具)
@@ -18,8 +25,9 @@
   * [重点cms利用工具](#重点cms利用工具)
   * [常规漏洞利用工具](#常规漏洞利用工具)
   * [数据库利用工具](#数据库利用工具)
-  * [爆破工具](#爆破工具)
-  * [字典收集](#字典收集)
+  * [爆破利用工具](#爆破利用工具)
+  * [全网字典收集](#全网字典收集)
+  * [代码审计辅助工具](#代码审计辅助工具)
 * [内网渗透工具](#内网渗透工具)
   * [webshell托管工具](#webshell托管工具)
   * [密码提取工具](#密码提取工具)
@@ -34,6 +42,11 @@
   * [红蓝资料集锦](#红蓝资料集锦)
   * [云安全资料](#云安全资料)
   * [靶场清单](#靶场清单)
+  * [基础设施及环境搭建](#基础设施及环境搭建)
+
+温馨提醒：不要沉迷于攻防而忘了吃饭喔~
+
+- 程序员在家做饭方法指南。（https://github.com/Anduin2017/HowToCook）
 
 # 半/全自动化利用工具
 
@@ -71,6 +84,7 @@
 | 调用ZoomEye的官方api---GUI界面（未来可能兼容fofa、hunter、quake） | https://github.com/xzajyjs/ThunderSearch    | ThunderSearch  |
 | 一个简单实用的FOFA客户端 By flashine                         | https://github.com/wgpsec/fofa_viewer       | fofa_viewer    |
 | icp备案查询、企业资产快速收集工具                            | https://github.com/SiJiDo/IEyes             | IEyes          |
+| 一款基于各大企业信息API的工具                                | https://github.com/wgpsec/ENScan_GO         | ENScan_GO      |
 
 ## 子域名收集工具
 
@@ -170,12 +184,17 @@
 | 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
 | swagger-exp Swagger  REST API 信息泄露利用工具               | https://github.com/lijiejie/swagger-exp                   | swagger-exp                       |
 | swagger-hack 自动化爬取并测试所有swagger-ui.html接口         | https://github.com/jayus0821/swagger-hack                 | swagger-hack                      |
+| heapdump敏感信息查询工具                                     | https://github.com/wyzxxz/heapdump_tool                   | heapdump_tool                     |
 | Packer Fuzzer  针对Webpack等前端打包工具所构造的网站进行检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer                   | Packer-Fuzzer                     |
+| .git源代码泄露利用工具                                       | https://github.com/BugScanTeam/GitHack                    | GitHack                           |
+| .cvs源代码泄露利用工具                                       | https://github.com/kost/dvcs-ripper.git                   | dvcs-ripper                       |
+| .DS_store文件泄露利用工具                                    | https://github.com/lijiejie/ds_store_exp                  | ds_store_exp                      |
 | SvnExploit支持SVN源代码泄露全版本Dump源码                    | https://github.com/admintony/svnExploit                   | svnExploit                        |
 | git-dumper 从网站转储git存储库的工具                         | https://github.com/arthaud/git-dumper                     | git-dumper                        |
 | GitDorker  通过使用大型的dorks库来从GitHub抓取敏感信息       | https://github.com/obheda12/GitDorker                     | GitDorker                         |
 | 从JavaScript文件中提取敏感信息                               | https://github.com/m4ll0k/SecretFinder                    | SecretFinder                      |
 | 功能比较多的一个JavaScript侦查自动化脚本                     | https://github.com/KathanP19/JSFScan.sh                   | JSFScan                           |
+| 子域名接管漏洞检测工具，支持30+云服务托管检测                | https://github.com/Ice3man543/SubOver                     | SubOver                           |
 
 ## 漏洞扫描框架/工具
 
@@ -218,6 +237,7 @@
 | ------------------------------------------------------------ | -------------------------------------------------------- | --------------------------- |
 | 综合高危漏洞利用工具                                         | https://github.com/Liqunkit/LiqunKit_                    | LiqunKit                    |
 | 致远OA综合利用工具                                           | https://github.com/Summer177/seeyon_exp                  | seeyon_exp                  |
+| 致远OA综合利用工具GUI-V1.0                                   | https://github.com/God-Ok/SeeyonExploit-GUI              | SeeyonExploit-GUI           |
 | 通达OA综合利用工具                                           | https://github.com/xinyu2428/TDOA_RCE                    | TDOA_RCE                    |
 | 蓝凌OA漏洞利用工具/前台无条件RCE/文件写入                    | https://github.com/yuanhaiGreg/LandrayExploit            | LandrayExploit              |
 | 泛微OA漏洞综合利用脚本                                       | https://github.com/z1un/weaver_exp                       | weaver_exp                  |
@@ -244,16 +264,17 @@
 
 ## 数据库利用工具
 
-| 项目简介                                                     | 项目地址                                    | 项目名称      |
-| ------------------------------------------------------------ | ------------------------------------------- | ------------- |
-| MDUT 2.0 数据库利用工具                                      | https://github.com/SafeGroceryStore/MDUT    | MDUT          |
-| 综合高危漏洞利用工具(包含各大数据库)                         | https://github.com/Liqunkit/LiqunKit_       | LiqunKit      |
-| sqlserver利用工具                                            | https://github.com/uknowsec/SharpSQLTools   | SharpSQLTools |
-| 通过套接字重用通过受损的 Microsoft SQL Server  在受限环境中执行横向移动 | https://github.com/blackarrowsec/mssqlproxy | mssqlproxy    |
-| ODAT：Oracle 数据库攻击工具                                  | https://github.com/quentinhardy/odat        | ODAT          |
-|                                                              |                                             |               |
+| 项目简介                                                     | 项目地址                                       | 项目名称           |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------------ |
+| MDUT 2.0 数据库利用工具                                      | https://github.com/SafeGroceryStore/MDUT       | MDUT               |
+| 综合高危漏洞利用工具(包含各大数据库)                         | https://github.com/Liqunkit/LiqunKit_          | LiqunKit           |
+| sqlserver利用工具                                            | https://github.com/uknowsec/SharpSQLTools      | SharpSQLTools      |
+| 通过套接字重用通过受损的 Microsoft SQL Server  在受限环境中执行横向移动 | https://github.com/blackarrowsec/mssqlproxy    | mssqlproxy         |
+| ODAT：Oracle 数据库攻击工具                                  | https://github.com/quentinhardy/odat           | ODAT               |
+| Redis未授权访问漏洞利用工具                                  | https://github.com/n0b0dyCN/redis-rogue-server | redis-rogue-server |
+| Redis未授权访问漏洞利用工具                                  | https://github.com/Ridter/redis-rce            | redis-rce          |
 
-## 爆破工具
+## 爆破利用工具
 
 | 项目简介                                            | 项目地址                                                     | 项目名称     |
 | --------------------------------------------------- | ------------------------------------------------------------ | ------------ |
@@ -267,7 +288,7 @@
 | rsync弱密码扫描(爆破)                               | https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py | rsync        |
 |                                                     |                                                              |              |
 
-## 字典收集
+## 全网字典收集
 
 | 项目简介                                           | 项目地址                                                   | 项目名称                 |
 | -------------------------------------------------- | ---------------------------------------------------------- | ------------------------ |
@@ -283,6 +304,16 @@
 | 各类漏洞的 TOP25 参数字典                          | https://github.com/lutfumertceylan/top25-parameter         | top25-parameter          |
 | 提取收集以往泄露的密码中符合条件的强弱密码         | https://github.com/r35tart/RW_Password                     | RW_Password              |
 |                                                    |                                                            |                          |
+
+## 代码审计辅助工具
+
+| 项目简介                                                     | 项目地址                                                     | 项目名称        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
+| 开源的被动式交互式安全测试(IAST)产品                         | https://github.com/HXSecurity/DongTai                        | DongTai         |
+| TABBY 是一个基于[Soot](https://github.com/soot-oss/soot)的 Java 代码分析工具。 | https://github.com/wh1t3p1g/tabby                            | tabby           |
+| IDEA依赖检查插件                                             | https://github.com/jeremylong/DependencyCheck                | DependencyCheck |
+| Java Web应用安全漏洞自动化发现                               | https://github.com/find-sec-bugs/find-sec-bugs/wiki/IntelliJ-Tutorial | FindSecBugs     |
+|                                                              |                                                              |                 |
 
 # 内网渗透工具
 
@@ -440,6 +471,13 @@
 | JAVA 漏洞靶场                                   | https://github.com/tangxiaofeng7/SecExample                  | SecExample     |
 | 一个想帮你总结所有类型的上传漏洞的靶场          | https://github.com/c0ny1/upload-labs                         | upload-labs    |
 | SQLI 实验室测试基于错误、基于布尔值、基于时间。 | https://github.com/Audi-1/sqli-labs                          | sqli-labs      |
+
+## 基础设施及环境搭建
+
+| 项目简介                   | 项目地址                               | 项目名称    |
+| -------------------------- | -------------------------------------- | ----------- |
+| 红/蓝队环境自动化部署工具  | https://github.com/ffffffff0x/f8x      | f8x         |
+| Frps 一键安装脚本&管理脚本 | https://github.com/MvsCode/frps-onekey | frps-onekey |
 
 正在整理中………………
 
