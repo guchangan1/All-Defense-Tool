@@ -3,9 +3,11 @@
 
 ## 免责声明
 
+**重点提醒：本项目工具来源于互联网，是否含带木马及后门请自行甄别！！Hvv来即，请大家提高警惕！！！**
+
 1. `本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关.`
 2. `本文档所有内容、新闻皆不代表本人态度、立场,如果有建议或方案,欢迎提交 issues`
-3. `不会收取任何广告费用,推荐的所有工具链接与本人无任何利害关系`
+3. `不会收取任何广告费用,展示的所有工具链接与本人无任何利害关系`
 
 # 目录
 
@@ -20,6 +22,7 @@
   * [浏览器插件](#浏览器插件)
   * [邮箱&amp;钓鱼](#邮箱钓鱼)
   * [社工个人信息收集类](#社工个人信息收集类)
+  * [常用小工具](#常用小工具)
 * [漏洞利用工具](#漏洞利用工具)
   * [漏洞扫描框架/工具](#漏洞扫描框架工具)
   * [中间件漏洞利用工具](#中间件漏洞利用工具)
@@ -29,18 +32,22 @@
   * [爆破利用工具](#爆破利用工具)
   * [全网字典收集](#全网字典收集)
   * [常规漏洞利用工具](#常规漏洞利用工具)
+  * [反序列化利用工具](#反序列化利用工具)
   * [代码审计辅助工具](#代码审计辅助工具)
 * [内网渗透工具](#内网渗透工具)
+  * [提权项目](#提权项目)
   * [横向移动工具](#横向移动工具)
-  * [webshell托管工具](#webshell托管工具)
+  * [shell托管工具](#shell托管工具)
   * [密码提取工具](#密码提取工具)
   * [隧道代理工具](#隧道代理工具)
   * [优秀免杀项目](#优秀免杀项目)
+  * [权限维持工具](#权限维持工具)
 * [运维&amp;甲方&amp;防守方工具](#运维甲方防守方工具)
   * [Linux应急响应工具](#linux应急响应工具)
   * [Windows应急响应工具](#windows应急响应工具)
   * [内存马查杀工具](#内存马查杀工具)
   * [xxxx](#xxxx)
+  * [溯源反制工具](#溯源反制工具)
 * [安全资料整理](#安全资料整理)
   * [红蓝资料集锦](#红蓝资料集锦)
   * [云安全资料](#云安全资料)
@@ -238,13 +245,13 @@
 
 | 项目简介                                                   | 项目地址                                                     | 项目名称                |
 | ---------------------------------------------------------- | ------------------------------------------------------------ | ----------------------- |
+| 高危漏洞精准检测与深度利用框架                             | https://github.com/woodpecker-framework/woodpecker-framwork-release | woodpecker-framwork     |
+| Web漏洞攻击框架                                            | https://github.com/Anonymous-ghost/AttackWebFrameworkTools   | AttackWebFrameworkTools |
 | 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。          | https://github.com/projectdiscovery/nuclei                   | nuclei                  |
 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 | https://github.com/zan8in/afrog                              | afrog                   |
 | 一款功能强大的安全评估工具                                 | https://github.com/chaitin/xray                              | Xray                    |
 | 网络安全测试工具                                           | https://github.com/gobysec/Goby                              | Goby                    |
 | 开源的远程漏洞测试框架                                     | https://github.com/knownsec/pocsuite3                        | pocsuite3               |
-| 高危漏洞精准检测与深度利用框架                             | https://github.com/woodpecker-framework/woodpecker-framwork-release | woodpecker-framwork     |
-| Web漏洞攻击框架                                            | https://github.com/Anonymous-ghost/AttackWebFrameworkTools   | AttackWebFrameworkTools |
 | 全新的开源在线 poc 测试框架                                | https://github.com/jweny/pocassist                           | pocassist               |
 | 是一款 web 漏洞扫描和验证工具                              | https://github.com/zhzyker/vulmap                            | Vulmap                  |
 |                                                            |                                                              |                         |
@@ -255,6 +262,7 @@
 | 项目简介                                                     | 项目地址                                                     | 项目名称                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
 | 综合高危漏洞利用工具                                         | https://github.com/Liqunkit/LiqunKit_                        | LiqunKit                 |
+| 使用JAVAFX图形化界面检测对HVV中常见的重点CMS系统和OA系统的已公开的漏洞进行验证。 | https://github.com/ExpLangcn/HVVExploitApply                 | HVVExploitApply          |
 | Spring系列漏洞利用工具                                       | https://github.com/SummerSec/SpringExploit                   | SpringExploit            |
 | shiro 反序列 命令执行辅助检测工具                            | https://github.com/wyzxxz/shiro_rce_tool                     | shiro_rce_tool           |
 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题 | https://github.com/SummerSec/ShiroAttack2                    | ShiroAttack2             |
@@ -263,6 +271,7 @@
 | fastjson_rce_tool fastjson命令执行自动化利用工具             | https://github.com/wyzxxz/fastjson_rce_tool                  | fastjson_rce_tool        |
 | fastjson一键命令执行                                         | https://github.com/mrknow001/fastjson_rec_exploit            | fastjson_rec_exploit     |
 | Jboss（和 Java 反序列化漏洞）验证和利用工具                  | https://github.com/joaomatosf/jexboss                        | exBoss                   |
+| Weblogic漏洞利用图形化工具 支持注入内存马、一键上传webshell、命令执行 | https://github.com/sp4zcmd/WeblogicExploit-GUI               | WeblogicExploit-GUI      |
 | Weblogic一键漏洞检测工具，V1.5，更新时间：20200730           | https://github.com/rabbitmask/WeblogicScan                   | WeblogicScan             |
 | weblogic 漏洞扫描工具。包含2020                              | https://github.com/0xn0ne/weblogicScanner                    | weblogicScanner          |
 | weblogic利用工具weblogic-framework                           | https://github.com/0nise/weblogic-framework                  | weblogic-framework       |
@@ -274,8 +283,6 @@
 | Struts2-Scan Struts2全漏洞扫描利用工具                       | https://github.com/HatBoy/Struts2-Scan                       | Struts2-Scan             |
 | log4j漏洞利用工具                                            | https://github.com/kozmer/log4j-shell-poc                    | log4j-shell-poc          |
 | Confluence-OGNL一键注入内存shell                             | https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL | Confluence               |
-|                                                              |                                                              |                          |
-|                                                              |                                                              |                          |
 
 ## 重点cms利用工具
 
@@ -336,17 +343,17 @@
 
 ## 爆破利用工具
 
-| 项目简介                                            | 项目地址                                                     | 项目名称     |
-| --------------------------------------------------- | ------------------------------------------------------------ | ------------ |
-| 集合了fscan和kscan等优秀工具功能的扫描爆破工具。    | https://github.com/i11us0ry/goon                             | goon         |
-| 超级弱口令检查工具是一款Windows平台的弱口令审计工具 | https://github.com/shack2/SNETCracker                        | 超级弱口令   |
-| Web-Brutator 中间件接口爆破                         | https://github.com/koutto/web-brutator                       | Web-Brutator |
-| WebCrack是一款web后台弱口令/万能密码批量检测工具    | https://github.com/yzddmr6/WebCrack                          | WebCrack     |
-| ssb 一种更快更简单的爆破SSH服务器的工具             | https://github.com/kitabisa/ssb                              | ssh爆破      |
-| rsync弱密码扫描(爆破)                               | https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py | rsync        |
-|                                                     |                                                              |              |
-|                                                     |                                                              |              |
-|                                                     |                                                              |              |
+| 项目简介                                            | 项目地址                                   | 项目名称   |
+| --------------------------------------------------- | ------------------------------------------ | ---------- |
+| 还是推荐fscan吧，还是还用，更新也快                 | https://github.com/shadow1ng/fscan         | fscan      |
+| 爆破神器，懂得都懂                                  | https://github.com/vanhauser-thc/thc-hydra | hydra      |
+| 超级弱口令检查工具是一款Windows平台的弱口令审计工具 | https://github.com/shack2/SNETCracker      | 超级弱口令 |
+| 集合了fscan和kscan等优秀工具功能的扫描爆破工具。    | https://github.com/i11us0ry/goon           | goon       |
+|                                                     |                                            |            |
+|                                                     |                                            |            |
+|                                                     |                                            |            |
+|                                                     |                                            |            |
+|                                                     |                                            |            |
 
 ## 全网字典收集
 
@@ -367,15 +374,27 @@
 
 ## 常规漏洞利用工具
 
-| 项目简介                                                     | 项目地址                                  | 项目名称    |
-| ------------------------------------------------------------ | ----------------------------------------- | ----------- |
-| DalFox 是一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具 | https://github.com/hahwul/dalfox          | dalfox      |
-| 基于DOM的快速XSS漏洞扫描程序                                 | https://github.com/dwisiswant0/findom-xss | findom-xss  |
-| 很常用的XSS平台                                              | https://github.com/beefproject/beef       | beef        |
-| jndi注入工具v1.4                                             | https://github.com/WhiteHSBG/JNDIExploit  | JNDIExploit |
-| JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JDK场景下利用等 | https://github.com/wyzxxz/jndi_tool       | jndi_tool   |
-| Fast CRLF injection scanning tool                            | https://github.com/Nefcore/CRLFsuite      | CRLFsuite   |
-|                                                              |                                           |             |
+| 项目简介                                                     | 项目地址                                  | 项目名称   |
+| ------------------------------------------------------------ | ----------------------------------------- | ---------- |
+| DalFox 是一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具 | https://github.com/hahwul/dalfox          | dalfox     |
+| 基于DOM的快速XSS漏洞扫描程序                                 | https://github.com/dwisiswant0/findom-xss | findom-xss |
+| 很常用的XSS平台                                              | https://github.com/beefproject/beef       | beef       |
+| Fast CRLF injection scanning tool                            | https://github.com/Nefcore/CRLFsuite      | CRLFsuite  |
+|                                                              |                                           |            |
+|                                                              |                                           |            |
+|                                                              |                                           |            |
+|                                                              |                                           |            |
+|                                                              |                                           |            |
+
+## 反序列化利用工具
+
+| 项目简介                                                     | 项目地址                                 | 项目名称        |
+| ------------------------------------------------------------ | ---------------------------------------- | --------------- |
+| jndi注入工具v1.4                                             | https://github.com/WhiteHSBG/JNDIExploit | JNDIExploit     |
+| JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JDK场景下利用等 | https://github.com/wyzxxz/jndi_tool      | jndi_tool       |
+| 反序列化利用工具                                             | https://github.com/frohoff/ysoserial     | ysoserial       |
+| 项目为 ysoserial [su18] 专版，取名为 ysuserial ，在原项目 [ysoserial](https://github.com/frohoff/ysoserial) 基础上魔改而来 | https://github.com/su18/ysoserial/       | ysuserial       |
+| ysoserial修改版，着重修改`ysoserial.payloads.util.Gadgets.createTemplatesImpl`使其可以通过引入自定义class的形式来执行命令、内存马、反序列化回显 | https://github.com/Y4er/ysoserial        | ysoserial修改版 |
 
 ## 代码审计辅助工具
 
@@ -395,6 +414,14 @@
 
 # 内网渗透工具
 
+## 提权项目
+
+| 项目简介      | 项目地址                         | 项目名称 |
+| ------------- | -------------------------------- | -------- |
+| Linux自动提权 | https://github.com/liamg/traitor | traitor  |
+
+
+
 ## 横向移动工具
 
 | 项目简介                                                     | 项目地址                                           | 项目名称            |
@@ -409,14 +436,15 @@
 | sharpwmi基于rpc的横向移动工具，具有上传和执行命令功能        | https://github.com/QAX-A-Team/sharpwmi             | sharpwmi            |
 | 绕过虚拟机登录验证屏幕的工具                                 | https://github.com/hzphreak/VMInjector             | VMInjector          |
 | 常见横向移动与域控权限维持方法                               | https://xz.aliyun.com/t/9382                       | 方法论              |
-| 基于cobalt strike平台的红队自动化框架                        | https://github.com/pandasec888/taowu-cobalt-strike | taowu-cobalt-strike |
-|                                                              |                                                    |                     |
+| 一款比较好的CS后渗透模块插件                                 | https://github.com/pandasec888/taowu-cobalt-strike | taowu-cobalt-strike |
+| 一款CS后渗透模块插件，让大家使用一款插件就够了               | https://github.com/d3ckx1/OLa                      | OLa                 |
 |                                                              |                                                    |                     |
 
-## webshell托管工具
+## shell托管工具
 
 | 项目简介                               | 项目地址                                      | 项目名称        |
 | -------------------------------------- | --------------------------------------------- | --------------- |
+| 反弹shell就用这个，懂得都懂            | https://github.com/WangYihang/Platypus        | Platypus        |
 | 哥斯拉                                 | https://github.com/BeichenDream/Godzilla      | Godzilla        |
 | “冰蝎”动态二进制加密网站管理客户端     | https://github.com/rebeyond/Behinder          | Behinder        |
 | 中国蚁剑是一款开源的跨平台网站管理工具 | https://github.com/AntSwordProject/antSword   | antSword        |
@@ -424,6 +452,7 @@
 | 跨平台版中国菜刀                       | https://github.com/Chora10/Cknife             | Cknife          |
 | Java内存马注入工具                     | https://github.com/WisteriaTiger/JundeadShell | JundeadShell    |
 | 拿来即用的Tomcat内存马                 | https://github.com/ce-automne/TomcatMemShell  | TomcatMemShell  |
+|                                        |                                               |                 |
 
 ## 密码提取工具
 
@@ -494,6 +523,10 @@
 | 进行克隆用户、添加用户等账户防护安全检测的轻巧工具 | https://github.com/0x727/CloneX_0x727  | CloneX_0x727  |
 |                                                    |                                        |               |
 
+
+
+
+
 # 运维&甲方&防守方工具
 
 ## Linux应急响应工具
@@ -545,11 +578,11 @@
 
 ## xxxx
 
-| 项目简介                                                | 项目地址                                        | 项目名称         |
-| ------------------------------------------------------- | ----------------------------------------------- | ---------------- |
-| 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具 | https://github.com/CRED-CLUB/ARTIF              | ARTIF            |
-| 勒索病毒解密工具汇总                                    | https://github.com/jiansiting/Decryption-Tools/ | Decryption-Tools |
-|                                                         |                                                 |                  |
+| 项目简介                                                | 项目地址                                                 | 项目名称                  |
+| ------------------------------------------------------- | -------------------------------------------------------- | ------------------------- |
+| 一款基于 IP 信誉度信息实现的实时检测 Web 恶意流量的工具 | https://github.com/CRED-CLUB/ARTIF                       | ARTIF                     |
+| 勒索病毒解密工具汇总                                    | https://github.com/jiansiting/Decryption-Tools/          | Decryption-Tools          |
+| Shiro-Cookie解密小工具                                  | https://github.com/r00tuser111/SerializationDumper-Shiro | SerializationDumper-Shiro |
 
 ## 溯源反制工具
 
@@ -570,11 +603,12 @@
 
 ## 云安全资料
 
-| 项目简介                         | 项目地址                                                  | 项目名称                          |
-| -------------------------------- | --------------------------------------------------------- | --------------------------------- |
-| 也许这是国内第一个云安全知识文库 | https://wiki.teamssix.com/About/                          | T Wiki                            |
-| 从零开始的Kubernetes攻防         | https://github.com/neargle/my-re0-k8s-security            | my-re0-k8s-security               |
-| 六大云存储，泄露利用检测工具     | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
+| 项目简介                                                     | 项目地址                                                  | 项目名称                          |
+| ------------------------------------------------------------ | --------------------------------------------------------- | --------------------------------- |
+| 也许这是国内第一个云安全知识文库                             | https://wiki.teamssix.com/About/                          | T Wiki                            |
+| 从零开始的Kubernetes攻防                                     | https://github.com/neargle/my-re0-k8s-security            | my-re0-k8s-security               |
+| 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
+| 云环境利用框架 Cloud Exploitation Framework 方便红队人员在获得 AK 的后续工作 | https://github.com/teamssix/cf                            | cf                                |
 
 ## 靶场清单
 
@@ -582,10 +616,10 @@
 
 | 项目简介                                                     | 项目地址                                         | 项目名称             |
 | ------------------------------------------------------------ | ------------------------------------------------ | -------------------- |
+| 在线靶场                                                     | https://hackmyvm.eu/anon/                        | hackmyvm             |
 | Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。 | https://github.com/fofapro/vulfocus              | vulfocus             |
 | 基于 Docker-Compose 的预建易受攻击环境                       | https://github.com/vulhub/vulhub                 | vulhub               |
 | Spring Boot 相关漏洞学习资料，利用方法和技巧合               | https://github.com/LandGrey/SpringBootVulExploit | SpringBootVulExploit |
-|                                                              |                                                  |                      |
 |                                                              |                                                  |                      |
 
 基础漏洞类：
@@ -602,20 +636,20 @@
 
 ## 基础设施及环境搭建
 
-| 项目简介                                       | 项目地址                                 | 项目名称    |
-| ---------------------------------------------- | ---------------------------------------- | ----------- |
-| 红/蓝队环境自动化部署工具                      | https://github.com/ffffffff0x/f8x        | f8x         |
-| Frps 一键安装脚本&管理脚本                     | https://github.com/MvsCode/frps-onekey   | frps-onekey |
-| 修改frp支持域前置与配置文件自删除              | https://github.com/uknowsec/frpModify    | frpModify   |
-| 一款功能强大的代理检查和IP地址轮转工具         | https://github.com/kitabisa/mubeng       | mubeng      |
-| 利用fofa搜索socks5开放代理进行代理池轮切的工具 | https://github.com/akkuman/rotateproxy   | rotateproxy |
-| 利用IP地址池进行自动切换Http代理，防止IP封禁。 | https://github.com/Mustard404/Auto_proxy | Auto_proxy  |
+| 项目简介                                       | 项目地址                                 | 项目名称       |
+| ---------------------------------------------- | ---------------------------------------- | -------------- |
+| 红/蓝队环境自动化部署工具                      | https://github.com/ffffffff0x/f8x        | f8x            |
+| Frps 一键安装脚本&管理脚本                     | https://github.com/MvsCode/frps-onekey   | frps-onekey    |
+| 修改frp支持域前置与配置文件自删除              | https://github.com/uknowsec/frpModify    | frpModify      |
+| 一款功能强大的代理检查和IP地址轮转工具         | https://github.com/kitabisa/mubeng       | mubeng         |
+| 利用fofa搜索socks5开放代理进行代理池轮切的工具 | https://github.com/akkuman/rotateproxy   | rotateproxy    |
+| 利用IP地址池进行自动切换Http代理，防止IP封禁。 | https://github.com/Mustard404/Auto_proxy | Auto_proxy     |
+| 命令行全局代理--跨平台通用                     | https://github.com/rofl0r/proxychains-ng | proxychains-ng |
+|                                                |                                          |                |
 
 正在整理中………………
 
 ------
-<img src="https://github.com/guchangan1/image/blob/main/%E5%BE%AE%E4%BF%A1.jpeg" width="200" height="200" alt="微信"/><br/>
-
 如果你有更好的提议或者其他想法，欢迎联系。
 
 by--L0una(guchangan1)
