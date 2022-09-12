@@ -94,14 +94,14 @@
 | 从第三方平台获取目标网页内容                                 | https://github.com/tomnomnom/waybackurls     | waybackurls     |
 | 从多个网站提取目标相关信息                                   | https://github.com/lc/gau                    | gau             |
 | 集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。 | https://github.com/ExpLangcn/InfoSearchAll   | InfoSearchAll   |
-| 调用ZoomEye的官方api---GUI界面                               | https://github.com/xzajyjs/ThunderSearch     | ThunderSearch   |
+| 调用fofa\ZoomEye\360quake的官方api---GUI界面                 | https://github.com/xzajyjs/ThunderSearch     | ThunderSearch   |
 | 一个简单实用的FOFA客户端 By flashine                         | https://github.com/wgpsec/fofa_viewer        | fofa_viewer     |
+| 集成多个网络资产测绘平台的搜索工具                           | https://github.com/Kento-Sec/AsamF           | AsamF           |
 | icp备案查询、企业资产快速收集工具                            | https://github.com/SiJiDo/IEyes              | IEyes           |
 | 一款基于各大企业信息API的工具                                | https://github.com/wgpsec/ENScan_GO          | ENScan_GO       |
 | 基于斗象灯塔ARL修改后的版本。相比原版，增加了OneForAll、中央数据库，修改了altDns | https://github.com/ki9mu/ARL-plus-docker     | ARL-plus-docker |
 | 灯塔（最新版）指纹添加脚本！                                 | https://github.com/loecho-sec/ARL-Finger-ADD | ARL-Finger-ADD  |
 | apk爬虫工具可提取包内url等信息                               | https://github.com/dwisiswant0/apkleaks      | apkleaks        |
-|                                                              |                                              |                 |
 |                                                              |                                              |                 |
 
 ## 子域名收集工具
@@ -174,6 +174,7 @@
 | 一款基于BurpSuite的被动式shiro检测插件                       | https://github.com/pmiaowu/BurpShiroPassiveScan      | BurpShiroPassiveScan    |
 | 一款基于BurpSuite的被动式FastJson检测插件                    | https://github.com/pmiaowu/BurpFastJsonScan          | BurpFastJsonScan        |
 | fastjson漏洞burp插件，检测fastjson小于1.2.68基于dnslog       | https://github.com/zilong3033/fastjsonScan           | fastjsonScan            |
+| fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为dhcp、ibatis、c3p0 | https://github.com/skisw/fastjson-exp                | fastjson-exp            |
 | HaE 请求高亮标记与信息提取的辅助型 BurpSuite 插件            | https://github.com/gh0stkey/HaE                      | HaE                     |
 | domain_hunter_pro 一个资产管理类的Burp插件                   | https://github.com/bit4woo/domain_hunter_pro         | domain_hunter_pro       |
 | 新一代子域名主/被动收集工具                                  | https://github.com/Acmesec/Sylas                     | Sylas                   |
@@ -185,7 +186,6 @@
 | 伪造ip地址                                                   | https://github.com/TheKingOfDuck/burpFakeIP          | burpFakeIP              |
 | 自动发送请求                                                 | https://github.com/nccgroup/AutoRepeater             | AutoRepeater            |
 | 自动探测请求走私漏洞                                         | https://github.com/portswigger/http-request-smuggler | http-request-smuggler   |
-|                                                              |                                                      |                         |
 
 ## 浏览器插件
 
@@ -257,7 +257,7 @@
 |                                                            |                                                              |                         |
 |                                                            |                                                              |                         |
 
-## 中间件漏洞利用工具
+## 中间件/应用漏洞利用工具
 
 | 项目简介                                                     | 项目地址                                                     | 项目名称                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
@@ -283,6 +283,8 @@
 | Struts2-Scan Struts2全漏洞扫描利用工具                       | https://github.com/HatBoy/Struts2-Scan                       | Struts2-Scan             |
 | log4j漏洞利用工具                                            | https://github.com/kozmer/log4j-shell-poc                    | log4j-shell-poc          |
 | Confluence-OGNL一键注入内存shell                             | https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL | Confluence               |
+| YApi接口管理平台远程命令执行                                 | https://github.com/Tas9er/YApiRCE                            | YApiRCE                  |
+|                                                              |                                                              |                          |
 
 ## 重点cms利用工具
 
@@ -374,17 +376,18 @@
 
 ## 常规漏洞利用工具
 
-| 项目简介                                                     | 项目地址                                  | 项目名称   |
-| ------------------------------------------------------------ | ----------------------------------------- | ---------- |
-| DalFox 是一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具 | https://github.com/hahwul/dalfox          | dalfox     |
-| 基于DOM的快速XSS漏洞扫描程序                                 | https://github.com/dwisiswant0/findom-xss | findom-xss |
-| 很常用的XSS平台                                              | https://github.com/beefproject/beef       | beef       |
-| Fast CRLF injection scanning tool                            | https://github.com/Nefcore/CRLFsuite      | CRLFsuite  |
-|                                                              |                                           |            |
-|                                                              |                                           |            |
-|                                                              |                                           |            |
-|                                                              |                                           |            |
-|                                                              |                                           |            |
+| 项目简介                                                     | 项目地址                                  | 项目名称        |
+| ------------------------------------------------------------ | ----------------------------------------- | --------------- |
+| DalFox 是一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具 | https://github.com/hahwul/dalfox          | dalfox          |
+| 基于DOM的快速XSS漏洞扫描程序                                 | https://github.com/dwisiswant0/findom-xss | findom-xss      |
+| 很常用的XSS平台                                              | https://github.com/beefproject/beef       | beef            |
+| Fast CRLF injection scanning tool                            | https://github.com/Nefcore/CRLFsuite      | CRLFsuite       |
+| 快速 CORS 错误配置漏洞扫描程序                               | https://github.com/chenjj/CORScanner      | CORScanner      |
+| xxe利用工具                                                  | https://github.com/BuffaloWill/oxml_xxe   | oxml_xxe        |
+| xxe利用工具2                                                 | https://github.com/whitel1st/docem        | docem           |
+| UEditor编辑器批量GetShell / Code By:Tas9er                   | https://github.com/Tas9er/UEditorGetShell | UEditorGetShell |
+| 子域名接管工具                                               | https://github.com/michenriksen/aquatone  | aquatone        |
+|                                                              |                                           |                 |
 
 ## 反序列化利用工具
 
@@ -414,11 +417,31 @@
 
 # 内网渗透工具
 
+## webshell&&内存马&&shell
+
+| 项目简介                                                     | 项目地址                                      | 项目名称          |
+| ------------------------------------------------------------ | --------------------------------------------- | ----------------- |
+| 反弹shell就用这个，懂得都懂                                  | https://github.com/WangYihang/Platypus        | Platypus          |
+| 哥斯拉                                                       | https://github.com/BeichenDream/Godzilla      | Godzilla          |
+| “冰蝎”动态二进制加密网站管理客户端                           | https://github.com/rebeyond/Behinder          | Behinder          |
+| 中国蚁剑是一款开源的跨平台网站管理工具                       | https://github.com/AntSwordProject/antSword   | antSword          |
+| 一句话WEB端管理工具                                          | https://github.com/boy-hack/WebshellManager   | WebshellManager   |
+| 跨平台版中国菜刀                                             | https://github.com/Chora10/Cknife             | Cknife            |
+| Java内存马注入工具                                           | https://github.com/WisteriaTiger/JundeadShell | JundeadShell      |
+| 拿来即用的Tomcat内存马                                       | https://github.com/ce-automne/TomcatMemShell  | TomcatMemShell    |
+| Memory WebShell Generator                                    | https://github.com/hosch3n/msmap              | msmap             |
+| 用于生成各类免杀webshell                                     | https://github.com/cseroad/Webshell_Generate  | Webshell_Generate |
+| 该工具易于使用，它生成自己的 PowerShell 有效负载并支持加密 (ssl)。 | https://github.com/t3l3machus/hoaxshell       | hoaxshell         |
+|                                                              |                                               |                   |
+|                                                              |                                               |                   |
+
 ## 提权项目
 
 | 项目简介      | 项目地址                         | 项目名称 |
 | ------------- | -------------------------------- | -------- |
 | Linux自动提权 | https://github.com/liamg/traitor | traitor  |
+|               |                                  |          |
+|               |                                  |          |
 
 
 
@@ -438,21 +461,7 @@
 | 常见横向移动与域控权限维持方法                               | https://xz.aliyun.com/t/9382                       | 方法论              |
 | 一款比较好的CS后渗透模块插件                                 | https://github.com/pandasec888/taowu-cobalt-strike | taowu-cobalt-strike |
 | 一款CS后渗透模块插件，让大家使用一款插件就够了               | https://github.com/d3ckx1/OLa                      | OLa                 |
-|                                                              |                                                    |                     |
-
-## shell托管工具
-
-| 项目简介                               | 项目地址                                      | 项目名称        |
-| -------------------------------------- | --------------------------------------------- | --------------- |
-| 反弹shell就用这个，懂得都懂            | https://github.com/WangYihang/Platypus        | Platypus        |
-| 哥斯拉                                 | https://github.com/BeichenDream/Godzilla      | Godzilla        |
-| “冰蝎”动态二进制加密网站管理客户端     | https://github.com/rebeyond/Behinder          | Behinder        |
-| 中国蚁剑是一款开源的跨平台网站管理工具 | https://github.com/AntSwordProject/antSword   | antSword        |
-| 一句话WEB端管理工具                    | https://github.com/boy-hack/WebshellManager   | WebshellManager |
-| 跨平台版中国菜刀                       | https://github.com/Chora10/Cknife             | Cknife          |
-| Java内存马注入工具                     | https://github.com/WisteriaTiger/JundeadShell | JundeadShell    |
-| 拿来即用的Tomcat内存马                 | https://github.com/ce-automne/TomcatMemShell  | TomcatMemShell  |
-|                                        |                                               |                 |
+| 一款域渗透扫描工具，方便一键自动化、全方位的信息收集及扫描域提权漏洞。支持常见的域信息收集、Zerologon、Nopac、Spooler、MS17010扫描等功能。 |                                                    |                     |
 
 ## 密码提取工具
 
@@ -512,7 +521,7 @@
 | Cobalt Strike插件，用于快速生成免杀的可执行文件              | https://github.com/hack2fun/BypassAV               | BypassAV               |
 | 无落地文件的 Windows 证书导入导出工具                        | https://github.com/TheWover/CertStealer            | CertStealer            |
 | 通过阻止入口点执行来绕过EDR主动防御的DLL                     | https://github.com/CCob/SharpBlock                 | SharpBlock             |
-|                                                              |                                                    |                        |
+| 在线免杀平台                                                 | http://bypass.tidesec.com/web/                     | 在线免杀平台           |
 |                                                              |                                                    |                        |
 
 ## 权限维持工具
