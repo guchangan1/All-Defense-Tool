@@ -245,6 +245,7 @@
 | ------------------------------------------------------------ | ----------------------------------------------- | --------------------------------- |
 | 一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件 | https://github.com/ezshine/wxapkg-convertor     | wxapkg-convertor                  |
 | 微信小程序反编译                                             | https://github.com/qwerty472123/wxappUnpacker   | wxappUnpacker（自行寻找备份仓库） |
+| 微信小程序主包解密工具                                             | https://github.com/BlackTrace/pc_wxapkg_decrypt| pc_wxapkg_decrypt |
 | 微信小程序反编译                                             | https://github.com/r3x5ur/wxapkg-unpacker       | wxapkg-unpacker（二开）           |
 | 微信小程序信息在线收集，wxapkg源码包内提取信息               | https://github.com/moyuwa/wechat_appinfo_wxapkg | wechat_appinfo_wxapkg             |
 | 移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具      | https://github.com/kelvinBen/AppInfoScanner     | AppInfoScanner                    |
