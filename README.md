@@ -151,6 +151,7 @@
 | 爬虫 可以发现搜索引擎发现不了的目录                          | https://github.com/jaeles-project/gospider        | gospider    |
 | katana 是 projectdiscovery 项目中的一个网页链接抓取工具，可以自动解析js文件。新一代爬行框架。 | https://github.com/projectdiscovery/katana        | katana      |
 | dontgo403 是一个绕过 40X 错误的工具。                        | https://github.com/devploit/dontgo403             | dontgo403   |
+| 从JavaScript中提取URL、路径、机密和其他有趣的部分            | https://github.com/BishopFox/jsluice              | jsluice     |
 
 ## 指纹识别工具
 
@@ -188,6 +189,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------- | ----------------------- |
 | 有关burpsuite的插件(非商店),文章以及使用技巧的收集           | https://github.com/Mr-xn/BurpSuite-collections          | BurpSuite-collections   |
 | 一个集成的BurpSuite漏洞探测插件                              | https://github.com/Tsojan/TsojanScan                    | TsojanScan              |
+| OneScan是递归目录扫描的BurpSuite插件。                       | https://github.com/vaycore/OneScan                      | OneScan                 |
 | 一款基于BurpSuite的被动式shiro检测插件                       | https://github.com/pmiaowu/BurpShiroPassiveScan         | BurpShiroPassiveScan    |
 | 一款基于BurpSuite的被动式FastJson检测插件                    | https://github.com/pmiaowu/BurpFastJsonScan             | BurpFastJsonScan        |
 | 一个简单的Fastjson反序列化检测burp插件                       | https://github.com/Maskhe/FastjsonScan                  | FastjsonScan            |
@@ -242,7 +244,9 @@
 | 免杀宏生成器                                   | https://github.com/Inf0secRabbit/BadAssMacros          | BadAssMacros            |
 | 图标提取                                       | https://github.com/JarlPenguin/BeCyIconGrabberPortable | BeCyIconGrabberPortable |
 | 图标替换                                       | https://github.com/guitarfreak/SetIcon                 | SetIcon                 |
-|                                                |                                                        |                         |
+| 红蓝对抗：钓鱼演练资源汇总&备忘录              | https://github.com/tib36/PhishingBook                  | PhishingBook            |
+| 剑指钓鱼基建快速部署自动化                     | https://github.com/taielab/Taie-AutoPhishing           | Taie-AutoPhishing       |
+| 一款适用于红蓝对抗中的仿真钓鱼系统             | https://github.com/xiecat/goblin                       | goblin                  |
 
 ## 社工个人信息收集类
 
@@ -296,6 +300,7 @@
 | 高危漏洞精准检测与深度利用框架                             | https://github.com/woodpecker-framework/woodpecker-framwork-release | woodpecker-framwork     |
 | Web漏洞攻击框架                                            | https://github.com/Anonymous-ghost/AttackWebFrameworkTools   | AttackWebFrameworkTools |
 | 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。          | https://github.com/projectdiscovery/nuclei                   | nuclei                  |
+| 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！         | https://github.com/ExpLangcn/NucleiTP                        | NucleiTP                |
 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 | https://github.com/zan8in/afrog                              | afrog                   |
 | 一款功能强大的安全评估工具                                 | https://github.com/chaitin/xray                              | Xray                    |
 | 网络安全测试工具                                           | https://github.com/gobysec/Goby                              | Goby                    |
@@ -303,6 +308,7 @@
 | 全新的开源在线 poc 测试框架                                | https://github.com/jweny/pocassist                           | pocassist               |
 | 一个应用于web安全领域的漏洞批量扫描框架                    | https://github.com/bigblackhat/oFx                           | oFx                     |
 | 是一款 web 漏洞扫描和验证工具                              | https://github.com/zhzyker/vulmap                            | Vulmap                  |
+|                                                            |                                                              |                         |
 |                                                            |                                                              |                         |
 
 ## 中间件/应用漏洞利用工具
@@ -331,7 +337,7 @@
 | Confluence-OGNL一键注入内存shell                             | https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL | Confluence               |
 | YApi接口管理平台远程命令执行                                 | https://github.com/Tas9er/YApiRCE                            | YApiRCE                  |
 | Nacos JRaft Hessian 反序列化 RCE 加载字节码 注入内存马 不出网利用 | https://github.com/c0olw/NacosRce                            | NacosRce                 |
-|                                                              |                                                              |                          |
+| Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用 | https://github.com/charonlight/NacosExploitGUI               | NacosExploitGUI          |
 |                                                              |                                                              |                          |
 |                                                              |                                                              |                          |
 |                                                              |                                                              |                          |
@@ -346,6 +352,7 @@
 | 高危漏洞利用工具                                             | https://github.com/White-hua/Apt_t00ls        | Apt_t00ls          |
 | OA综合利用工具，集合将近20款OA漏洞批量扫描                   | https://github.com/LittleBear4/OA-EXPTOOL     | OA-EXPTOOL         |
 | OAExploit一款基于产品的一键扫描工具。                        | https://github.com/achuna33/MYExploit         | MYExploit          |
+| 支持自定义Poc文件的图形化漏洞利用工具                        | https://github.com/bcvgh/daydayEXP            | daydayEXP          |
 | 漏洞POC基本适用ThinkPHP全版本漏洞                            | https://github.com/zangcc/Aazhen-RexHa        | RexHa              |
 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。 | https://github.com/Lotus6/ThinkphpGUI         | ThinkphpGUI        |
 | ThinkPHP 漏洞 综合利用工具, 图形化界面, 命令执行, 一键getshell, 批量检测, 日志遍历, session包含, 宝塔绕过 | https://github.com/bewhale/thinkphp_gui_tools | thinkphp_gui_tools |
@@ -370,6 +377,7 @@
 | ------------------------------------------------------------ | --------------------------------------------------------- | --------------------------------- |
 | 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
 | AK资源管理工具，阿里云/腾讯云 AccessKey AccessKeySecret      | https://github.com/wyzxxz/aksk_tool                       | aksk_tool                         |
+| 阿里云accesskey利用工具                                      | https://github.com/mrknow001/aliyun-accesskey-Tools       | aliyun-accesskey-Tools            |
 | swagger-exp Swagger  REST API 信息泄露利用工具               | https://github.com/lijiejie/swagger-exp                   | swagger-exp                       |
 | swagger-hack 自动化爬取并测试所有swagger-ui.html接口         | https://github.com/jayus0821/swagger-hack                 | swagger-hack                      |
 | heapdump敏感信息查询工具                                     | https://github.com/wyzxxz/heapdump_tool                   | heapdump_tool                     |
@@ -384,15 +392,17 @@
 | 从JavaScript文件中提取敏感信息                               | https://github.com/m4ll0k/SecretFinder                    | SecretFinder                      |
 | 功能比较多的一个JavaScript侦查自动化脚本                     | https://github.com/KathanP19/JSFScan.sh                   | JSFScan                           |
 | 子域名接管漏洞检测工具，支持30+云服务托管检测                | https://github.com/Ice3man543/SubOver                     | SubOver                           |
-|                                                              |                                                           |                                   |
+| 一个小程序、公众号、企业微信、飞书、钉钉等泄露secert后利用工具 | https://github.com/mrknow001/API-Explorer                 | API-Explorer                      |
 
 ## 数据库利用工具
 
 | 项目简介                                                     | 项目地址                                       | 项目名称           |
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------ |
 | MDUT 2.0 数据库利用工具                                      | https://github.com/SafeGroceryStore/MDUT       | MDUT               |
+| 数据库综合利用工具                                           | https://github.com/Ryze-T/Sylas                | Sylas              |
 | 综合高危漏洞利用工具(包含各大数据库)                         | https://github.com/Liqunkit/LiqunKit_          | LiqunKit           |
 | 一款用Go语言编写的数据库自动化提权工具                       | https://github.com/Hel10-Web/Databasetools     | Databasetools      |
+| Team IDE 工具 集成MySql、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch等管理工具 | https://github.com/team-ide/                   | teamide            |
 | sqlserver利用工具                                            | https://github.com/uknowsec/SharpSQLTools      | SharpSQLTools      |
 | 通过套接字重用通过受损的 Microsoft SQL Server  在受限环境中执行横向移动 | https://github.com/blackarrowsec/mssqlproxy    | mssqlproxy         |
 | ODAT：Oracle 数据库攻击工具                                  | https://github.com/quentinhardy/odat           | ODAT               |
@@ -420,6 +430,7 @@
 | 项目简介                                           | 项目地址                                                   | 项目名称                 |
 | -------------------------------------------------- | ---------------------------------------------------------- | ------------------------ |
 | 渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目 | https://github.com/insightglacier/Dictionary-Of-Pentesting | Dictionary-Of-Pentesting |
+| 1337 Wordlists for Bug Bounty Hunting              | https://github.com/0xPugazh/fuzz4bounty                    | fuzz4bfuzz4bountyounty   |
 | Fuzz 字典,一个就够了                               | https://github.com/TheKingOfDuck/fuzzDicts                 | Web Pentesting           |
 | Web 模糊测试字典与一些Payloads                     | https://github.com/gh0stkey/Web-Fuzzing-Box                | Web Fuzzing Box          |
 | 安全评估期间使用的多种类型列表的集合               | https://github.com/danielmiessler/SecLists                 | SecLists                 |
@@ -427,8 +438,7 @@
 | 基于实战沉淀下的各种弱口令字典                     | https://github.com/fuzz-security/SuperWordlist             | SuperWordlist            |
 | 各类漏洞的 TOP25 参数字典                          | https://github.com/lutfumertceylan/top25-parameter         | top25-parameter          |
 | 提取收集以往泄露的密码中符合条件的强弱密码         | https://github.com/r35tart/RW_Password                     | RW_Password              |
-|                                                    |                                                            |                          |
-|                                                    |                                                            |                          |
+| 实战沉淀字典                                       | https://github.com/SexyBeast233/SecDictionary              | SecDictionary            |
 |                                                    |                                                            |                          |
 |                                                    |                                                            |                          |
 
@@ -475,14 +485,14 @@
 
 ## 内存马注入工具
 
-| 项目简介                                 | 项目地址                                           | 项目名称                |
-| ---------------------------------------- | -------------------------------------------------- | ----------------------- |
-| 一款支持高度自定义的 Java 内存马生成工具 | https://github.com/pen4uin/java-memshell-generator | java-memshell-generator |
-| Java内存马注入工具                       | https://github.com/WisteriaTiger/JundeadShell      | JundeadShell            |
-| 拿来即用的Tomcat内存马                   | https://github.com/ce-automne/TomcatMemShell       | TomcatMemShell          |
-| Memory WebShell Generator                | https://github.com/hosch3n/msmap                   | msmap                   |
-| 用Java agent实现内存马等功能             | https://github.com/ethushiroha/JavaAgentTools      | JavaAgentTools          |
-|                                          |                                                    |                         |
+| 项目简介                                 | 项目地址                                                   | 项目名称                        |
+| ---------------------------------------- | ---------------------------------------------------------- | ------------------------------- |
+| 一款支持高度自定义的 Java 内存马生成工具 | https://github.com/pen4uin/java-memshell-generator-release | java-memshell-generator-release |
+| Java内存马注入工具                       | https://github.com/WisteriaTiger/JundeadShell              | JundeadShell                    |
+| 拿来即用的Tomcat内存马                   | https://github.com/ce-automne/TomcatMemShell               | TomcatMemShell                  |
+| Memory WebShell Generator                | https://github.com/hosch3n/msmap                           | msmap                           |
+| 用Java agent实现内存马等功能             | https://github.com/ethushiroha/JavaAgentTools              | JavaAgentTools                  |
+|                                          |                                                            |                                 |
 
 
 
@@ -649,12 +659,15 @@
 | Xdecrypt Xshell  Xftp 密码解密                               | https://github.com/dzxs/Xdecrypt                  | Xdecrypt               |
 | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息 | https://github.com/AdminTest0/SharpWxDump         | SharpWxDump            |
 | FakeLogonScreen 是一个伪造 Windows 登录屏幕以获取用户密码的实用程序。输入的密码将根据 Active Directory 或本地计算机进行验证，以确保其正确，然后显示到控制台或保存到磁盘。 | https://github.com/bitsadmin/fakelogonscreen      | fakelogonscreen        |
+| 强大的敏感信息搜索工具                                       | https://github.com/Naturehi666/searchall          | searchall              |
+| 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告 | https://github.com/LC044/WeChatMsg                | WeChatMsg              |
 
 ## 隧道代理工具
 
 | 项目简介                                                     | 项目地址                                 | 项目名称    |
 | ------------------------------------------------------------ | ---------------------------------------- | ----------- |
 | 全平台代理工具，支持多种socks协议                            | https://www.proxifier.com/               | proxifier   |
+| 开源的跨平台对手仿真/红队框架                                | https://github.com/BishopFox/sliver      | sliver      |
 | 专注于内网穿透的高性能的反向代理应用                         | https://github.com/fatedier/frp          | frp         |
 | Erfrp-frp二开-免杀与隐藏                                     | https://github.com/Goqi/Erfrp            | Erfrp       |
 | 轻量级、高性能、功能强大的内网穿透代理服务器                 | https://github.com/ehang-io/nps          | nps         |
@@ -667,7 +680,6 @@
 | pingtunnel 是把 tcp/udp/sock5 流量伪装成 icmp  流量进行转发的工具 | https://github.com/esrrhs/pingtunnel     | pingtunnel  |
 | pystinger - 一款使用webshell进行流量转发的出网工具           | https://github.com/FunnyWolf/pystinger   | pystinger   |
 | goproxy 一款轻量级、功能强大、高性能的多种代理工具           | https://github.com/snail007/goproxy      | goproxy     |
-|                                                              |                                          |             |
 |                                                              |                                          |             |
 |                                                              |                                          |             |
 |                                                              |                                          |             |
@@ -793,6 +805,7 @@
 | ------------------------------------------------------------ | --------------------------------------------------------- | --------------------------------- |
 | 也许这是国内第一个云安全知识文库                             | https://wiki.teamssix.com/About/                          | T Wiki                            |
 | 从零开始的Kubernetes攻防                                     | https://github.com/neargle/my-re0-k8s-security            | my-re0-k8s-security               |
+| 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等 | https://github.com/dark-kingA/cloudTools                  | cloudTools                        |
 | 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
 | 云环境利用框架 Cloud Exploitation Framework 方便红队人员在获得 AK 的后续工作 | https://github.com/teamssix/cf                            | cf                                |
 | 云漏洞扫描工具                                               | https://github.com/Rnalter/ThunderCloud                   | ThunderCloud                      |
@@ -801,39 +814,45 @@
 
 通用漏洞类：
 
-| 项目简介                                                     | 项目地址                                         | 项目名称             |
-| ------------------------------------------------------------ | ------------------------------------------------ | -------------------- |
-| 在线靶场                                                     | https://hackmyvm.eu/anon/                        | hackmyvm             |
-| Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。 | https://github.com/fofapro/vulfocus              | vulfocus             |
-| 基于 Docker-Compose 的预建易受攻击环境                       | https://github.com/vulhub/vulhub                 | vulhub               |
-| Spring Boot 相关漏洞学习资料，利用方法和技巧合               | https://github.com/LandGrey/SpringBootVulExploit | SpringBootVulExploit |
-|                                                              |                                                  |                      |
+| 项目简介                                                     | 项目地址                                             | 项目名称             |
+| ------------------------------------------------------------ | ---------------------------------------------------- | -------------------- |
+| 在线靶场                                                     | https://hackmyvm.eu/anon/                            | hackmyvm             |
+| Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。 | https://github.com/fofapro/vulfocus                  | vulfocus             |
+| 基于 Docker-Compose 的预建易受攻击环境                       | https://github.com/vulhub/vulhub                     | vulhub               |
+| Spring Boot 相关漏洞学习资料，利用方法和技巧合               | https://github.com/LandGrey/SpringBootVulExploit     | SpringBootVulExploit |
+| TerraformGoat 是一个支持多云的云场景漏洞靶场搭建工具，目前支持阿里云、腾讯云、华为云、Amazon Web Services、Google Cloud Platform、Microsoft Azure 六个云厂商的云场景漏洞搭建。 | https://github.com/HXSecurity/TerraformGoat          | TerraformGoat        |
+| Metarget的名称来源于`meta-`（元）加`target`（目标，靶机），是一个脆弱基础设施自动化构建框架，主要用于快速、自动化搭建从简单到复杂的脆弱云原生靶机环境。 | https://github.com/Metarget/metarget                 | Metarget             |
+| 一个故意易受攻击的CI/CD环境。通过多种挑战学习CI/CD安全性。   | https://github.com/cider-security-research/cicd-goat | cicd-goat            |
 
 基础漏洞类：
 
-| 项目简介                                              | 项目地址                                                     | 项目名称       |
-| ----------------------------------------------------- | ------------------------------------------------------------ | -------------- |
-| 基础漏洞靶场                                          | https://dvwa.co.uk/                                          | dvwa           |
-| 常见的web漏洞                                         | https://www.pentesterlab.com/exercises/web_for_pentester/course | pentesterlab   |
-| Java漏洞平台                                          | https://github.com/j3ers3/Hello-Java-Sec                     | Hello-Java-Sec |
-| JAVA 漏洞靶场                                         | https://github.com/tangxiaofeng7/SecExample                  | SecExample     |
-| 一个想帮你总结所有类型的上传漏洞的靶场                | https://github.com/c0ny1/upload-labs                         | upload-labs    |
-| SQLI 实验室测试基于错误、基于布尔值、基于时间。       | https://github.com/Audi-1/sqli-labs                          | sqli-labs      |
-| 一个包含php,java,python,C#等各种语言版本的XXE漏洞Demo | https://github.com/c0ny1/xxe-lab                             | xxe-lab        |
+| 项目简介                                                     | 项目地址                                                     | 项目名称       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
+| 基础漏洞靶场                                                 | https://dvwa.co.uk/                                          | dvwa           |
+| 常见的web漏洞                                                | https://www.pentesterlab.com/exercises/web_for_pentester/course | pentesterlab   |
+| Java漏洞平台                                                 | https://github.com/j3ers3/Hello-Java-Sec                     | Hello-Java-Sec |
+| JAVA 漏洞靶场                                                | https://github.com/tangxiaofeng7/SecExample                  | SecExample     |
+| 一个想帮你总结所有类型的上传漏洞的靶场                       | https://github.com/c0ny1/upload-labs                         | upload-labs    |
+| SQLI 实验室测试基于错误、基于布尔值、基于时间。              | https://github.com/Audi-1/sqli-labs                          | sqli-labs      |
+| 一个包含php,java,python,C#等各种语言版本的XXE漏洞Demo        | https://github.com/c0ny1/xxe-lab                             | xxe-lab        |
+| FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf绕过、文件读写、原生反序列化、利用链探测绕过、不出网利用等。从黑盒的角度覆盖FastJson深入利用 | https://github.com/lemono0/FastJsonParty                     | FastJsonParty  |
 
 ## 基础设施及环境搭建
 
-| 项目简介                                       | 项目地址                                         | 项目名称               |
-| ---------------------------------------------- | ------------------------------------------------ | ---------------------- |
-| 红/蓝队环境自动化部署工具                      | https://github.com/ffffffff0x/f8x                | f8x                    |
-| Frps 一键安装脚本&管理脚本                     | https://github.com/MvsCode/frps-onekey           | frps-onekey            |
-| 修改frp支持域前置与配置文件自删除              | https://github.com/uknowsec/frpModify            | frpModify              |
-| 一款功能强大的代理检查和IP地址轮转工具         | https://github.com/kitabisa/mubeng               | mubeng                 |
-| 利用fofa搜索socks5开放代理进行代理池轮切的工具 | https://github.com/akkuman/rotateproxy           | rotateproxy            |
-| 利用IP地址池进行自动切换Http代理，防止IP封禁。 | https://github.com/Mustard404/Auto_proxy         | Auto_proxy             |
-| 命令行全局代理--跨平台通用                     | https://github.com/rofl0r/proxychains-ng         | proxychains-ng         |
-| Python爬虫代理IP池(proxy pool)                 | https://github.com/jhao104/proxy_pool            | proxy_pool             |
-| DNSLOG平台 golang 一键启动版                   | https://github.com/yumusb/DNSLog-Platform-Golang | DNSLog-Platform-Golang |
+| 项目简介                                                     | 项目地址                                         | 项目名称               |
+| ------------------------------------------------------------ | ------------------------------------------------ | ---------------------- |
+| 红/蓝队环境自动化部署工具                                    | https://github.com/ffffffff0x/f8x                | f8x                    |
+| 适合每个人的动态基础设施框架，轻松分配许多不同扫描工具的工作量，包括nmap、ffuf、masscan、核、meg等！ | https://github.com/pry0cc/axiom                  | axiom                  |
+| Frps 一键安装脚本&管理脚本                                   | https://github.com/MvsCode/frps-onekey           | frps-onekey            |
+| 修改frp支持域前置与配置文件自删除                            | https://github.com/uknowsec/frpModify            | frpModify              |
+| 一款功能强大的代理检查和IP地址轮转工具                       | https://github.com/kitabisa/mubeng               | mubeng                 |
+| 利用fofa搜索socks5开放代理进行代理池轮切的工具               | https://github.com/akkuman/rotateproxy           | rotateproxy            |
+| 利用IP地址池进行自动切换Http代理，防止IP封禁。               | https://github.com/Mustard404/Auto_proxy         | Auto_proxy             |
+| 命令行全局代理--跨平台通用                                   | https://github.com/rofl0r/proxychains-ng         | proxychains-ng         |
+| Python爬虫代理IP池(proxy pool)                               | https://github.com/jhao104/proxy_pool            | proxy_pool             |
+| DNSLOG平台 golang 一键启动版                                 | https://github.com/yumusb/DNSLog-Platform-Golang | DNSLog-Platform-Golang |
+|                                                              |                                                  |                        |
+|                                                              |                                                  |                        |
 
 正在整理中………………
 
