@@ -287,7 +287,8 @@
 | 视觉侦查工具，用于信息收集屏幕截图 | https://github.com/sensepost/gowitness | gowitness    |
 | 一款jar包分析小工具                | https://github.com/4ra1n/jar-analyzer  | jar-analyzer |
 | 参数FUZZ小工具                     | https://github.com/s0md3v/Arjun        | Arjun        |
-|                                    |                                        |              |
+| 对Web渗透项目资产进行快速存活验证   | https://github.com/AabyssZG/Web-SurvivalScan | Web-SurvivalScan |
+| 二进制文件切割&合并工具 | https://github.com/AabyssZG/BinaryCutting-Tool | BinaryCutting-Tool |
 
 
 
@@ -338,7 +339,7 @@
 | YApi接口管理平台远程命令执行                                 | https://github.com/Tas9er/YApiRCE                            | YApiRCE                  |
 | Nacos JRaft Hessian 反序列化 RCE 加载字节码 注入内存马 不出网利用 | https://github.com/c0olw/NacosRce                            | NacosRce                 |
 | Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用 | https://github.com/charonlight/NacosExploitGUI               | NacosExploitGUI          |
-|                                                              |                                                              |                          |
+| 针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具 | https://github.com/AabyssZG/SpringBoot-Scan                  |  SpringBoot-Scan   |
 |                                                              |                                                              |                          |
 |                                                              |                                                              |                          |
 |                                                              |                                                              |                          |
@@ -560,7 +561,7 @@
 | 一句话WEB端管理工具                    | https://github.com/boy-hack/WebshellManager  | WebshellManager   |
 | 跨平台版中国菜刀                       | https://github.com/Chora10/Cknife            | Cknife            |
 | 用于生成各类免杀webshell               | https://github.com/cseroad/Webshell_Generate | Webshell_Generate |
-|                                        |                                              |                   |
+| 从零学习Webshell免杀手册  | https://github.com/AabyssZG/WebShell-Bypass-Guide | WebShell-Bypass-Guide |
 |                                        |                                              |                   |
 |                                        |                                              |                   |
 |                                        |                                              |                   |
