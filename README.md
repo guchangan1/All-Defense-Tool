@@ -190,6 +190,7 @@
 | 有关burpsuite的插件(非商店),文章以及使用技巧的收集           | https://github.com/Mr-xn/BurpSuite-collections          | BurpSuite-collections   |
 | 一个集成的BurpSuite漏洞探测插件                              | https://github.com/Tsojan/TsojanScan                    | TsojanScan              |
 | OneScan是递归目录扫描的BurpSuite插件。                       | https://github.com/vaycore/OneScan                      | OneScan                 |
+| 解析提取接口路径+参数                                        | https://github.com/xnl-h4ck3r/GAP-Burp-Extension        | GAP-Burp-Extension      |
 | 一款基于BurpSuite的被动式shiro检测插件                       | https://github.com/pmiaowu/BurpShiroPassiveScan         | BurpShiroPassiveScan    |
 | 一款基于BurpSuite的被动式FastJson检测插件                    | https://github.com/pmiaowu/BurpFastJsonScan             | BurpFastJsonScan        |
 | 一个简单的Fastjson反序列化检测burp插件                       | https://github.com/Maskhe/FastjsonScan                  | FastjsonScan            |
@@ -212,6 +213,7 @@
 | 提取参数插件                                                 | https://github.com/goddemondemongod/god_param           | god_param               |
 | 这是一款burp插件，用于Outlook 网页版用户信息收集，在已登录Outlook 网页版账号后，可以使用该 | https://github.com/KrystianLi/ExchangeOWA               | ExchangeOWA             |
 | 对权限绕过自动化bypass的burpsuite插件                        | https://github.com/0x727/BypassPro                      | BypassPro               |
+| Tls指纹特征绕过插件\|Bypass                                  | https://github.com/sleeyax/burp-awesome-tls             | burp-awesome-tls        |
 
 ## 浏览器插件
 
@@ -327,11 +329,13 @@
 | shiro 反序列 命令执行辅助检测工具                            | https://github.com/wyzxxz/shiro_rce_tool                     | shiro_rce_tool           |
 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题 | https://github.com/SummerSec/ShiroAttack2                    | ShiroAttack2             |
 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）    | https://github.com/j1anFen/shiro_attack                      | shiro_attack             |
+| 复杂请求下的Shiro反序列化利用工具                            | https://github.com/sma11new/Pyke-Shiro                       | Pyke-Shiro               |
 | Fastjson扫描器，可识别版本、依赖库、autoType状态等。         | https://github.com/a1phaboy/FastjsonScan                     | FastjsonScan             |
 |                                                              |                                                              |                          |
-| Jboss（和 Java 反序列化漏洞）验证和利用工具                  | https://github.com/joaomatosf/jexboss                        | exBoss                   |
+| Jboss（和 Java 反序列化漏洞）验证和利用工具                  | https://github.com/joaomatosf/jexboss                        | jexBoss                  |
 | Dubbo反序列化一键快速攻击测试工具                            | https://github.com/threedr3am/dubbo-exp                      | dubbo-exp                |
 | jenkins-attack-framework 针对 Jenkins 的攻击框架             | https://github.com/Accenture                                 | jenkins-attack-framework |
+| 一款Jenkins的综合漏洞利用工具                                | https://github.com/TheBeastofwar/JenkinsExploit-GUI          | JenkinsExploit-GUI       |
 | log4j漏洞利用工具                                            | https://github.com/kozmer/log4j-shell-poc                    | log4j-shell-poc          |
 | 一款针对Vcenter的综合利用工具，包含目前最主流的CVE-2021-21972、CVE-2021-21985以及CVE-2021-22005以及log4j，提供一键上传webshell，命令执行或者上传公钥使用SSH免密连接 | https://github.com/Schira4396/VcenterKiller                  | VcenterKiller            |
 | Vcenter综合渗透利用工具包-GUI                                | https://github.com/W01fh4cker/VcenterKit                     | VcenterKit               |
@@ -359,6 +363,7 @@
 | 项目简介                                                     | 项目地址                                      | 项目名称           |
 | ------------------------------------------------------------ | --------------------------------------------- | ------------------ |
 | 高危漏洞利用工具                                             | https://github.com/White-hua/Apt_t00ls        | Apt_t00ls          |
+| OA漏洞利用工具，基于Apt-T00ls二次开发工具                    | https://github.com/R4gd0ll/I-Wanna-Get-All    | I-Wanna-Get-All    |
 | OA综合利用工具，集合将近20款OA漏洞批量扫描                   | https://github.com/LittleBear4/OA-EXPTOOL     | OA-EXPTOOL         |
 | OAExploit一款基于产品的一键扫描工具。                        | https://github.com/achuna33/MYExploit         | MYExploit          |
 | 支持自定义Poc文件的图形化漏洞利用工具                        | https://github.com/bcvgh/daydayEXP            | daydayEXP          |
@@ -413,7 +418,7 @@
 | 综合高危漏洞利用工具(包含各大数据库)                         | https://github.com/Liqunkit/LiqunKit_          | LiqunKit           |
 | 一款用Go语言编写的数据库自动化提权工具                       | https://github.com/Hel10-Web/Databasetools     | Databasetools      |
 | Team IDE 工具 集成MySql、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch等管理工具 | https://github.com/team-ide/                   | teamide            |
-| sqlserver利用工具                                            | https://github.com/uknowsec/SharpSQLTools      | SharpSQLTools      |
+| sqlserver利用工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作。 | https://github.com/uknowsec/SharpSQLTools      | SharpSQLTools      |
 | 通过套接字重用通过受损的 Microsoft SQL Server  在受限环境中执行横向移动 | https://github.com/blackarrowsec/mssqlproxy    | mssqlproxy         |
 | ODAT：Oracle 数据库攻击工具                                  | https://github.com/quentinhardy/odat           | ODAT               |
 | Redis未授权访问漏洞利用工具                                  | https://github.com/n0b0dyCN/redis-rogue-server | redis-rogue-server |
@@ -502,7 +507,7 @@
 | 拿来即用的Tomcat内存马                   | https://github.com/ce-automne/TomcatMemShell               | TomcatMemShell                  |
 | Memory WebShell Generator                | https://github.com/hosch3n/msmap                           | msmap                           |
 | 用Java agent实现内存马等功能             | https://github.com/ethushiroha/JavaAgentTools              | JavaAgentTools                  |
-|                                          |                                                            |                                 |
+| 多功能 java agent 内存马                 | https://github.com/veo/vagent                              | vagent                          |
 
 
 
@@ -558,6 +563,19 @@
 
 
 
+## 通用型WAF绕过
+
+| 项目简介                                                     | 项目地址                                 | 项目名称       |
+| ------------------------------------------------------------ | ---------------------------------------- | -------------- |
+| 绕过瑞数waf的动态验证机制，实现请求包重放，可针对不同网站使用。 | https://github.com/R0A1NG/Botgate_bypass | Botgate_bypass |
+|                                                              |                                          |                |
+
+
+
+
+
+
+
 # 内网渗透工具
 
 ## webshell管理工具
@@ -592,6 +610,7 @@
 | 该工具易于使用，它生成自己的 PowerShell 有效负载并支持加密 (ssl)。 | https://github.com/t3l3machus/hoaxshell              | hoaxshell      |
 | 反弹shell就用这个                                            | https://github.com/WangYihang/Platypus               | Platypus       |
 | PingRAT使用ICMP有效载荷通过防火墙秘密传递C2流量。            | https://github.com/umutcamliyurt/PingRAT             | PingRAT        |
+|                                                              |                                                      |                |
 
 
 
@@ -619,6 +638,7 @@
 | 红队小工具 ，利用DCERPC协议获取Windows机器主机信息和多网卡信息 | https://github.com/Y0-kan/HostInfoScan     | HostInfoScan  |
 | ATAttack是一款后渗透半自动化侦察工具，它从进攻性和防御性安全角度执行许多面向安全性的主机调查“安全检查”。 | https://github.com/c1y2m3/ATAttack         | ATAttack      |
 | 集权设施扫描器                                               | https://github.com/Amulab/CAudit           | CAudit        |
+|                                                              |                                            |               |
 
 
 
@@ -675,26 +695,27 @@
 
 ## 隧道代理工具
 
-| 项目简介                                                     | 项目地址                                 | 项目名称    |
-| ------------------------------------------------------------ | ---------------------------------------- | ----------- |
-| 全平台代理工具，支持多种socks协议                            | https://www.proxifier.com/               | proxifier   |
-| 开源的跨平台对手仿真/红队框架                                | https://github.com/BishopFox/sliver      | sliver      |
-| 专注于内网穿透的高性能的反向代理应用                         | https://github.com/fatedier/frp          | frp         |
-| Erfrp-frp二开-免杀与隐藏                                     | https://github.com/Goqi/Erfrp            | Erfrp       |
-| 轻量级、高性能、功能强大的内网穿透代理服务器                 | https://github.com/ehang-io/nps          | nps         |
-| 改进的reGeorg版本                                            | https://github.com/L-codes/Neo-reGeorg   | Neo-reGeorg |
-| 是一款利用dns协议传输tcp数据的工具                           | https://github.com/alex-sector/dns2tcp   | dns2tcp     |
-| 是一个DNS隧道工具                                            | https://github.com/iagox86/dnscat2       | dnscat2     |
-| 内网渗透代理、端口转发工具                                   | http://rootkiter.com/Termite/            | Termite     |
-| 一个简单的 reverse ICMP shell                                | https://github.com/inquisb/icmpsh        | icmpsh      |
-| 正/反向代理，内网穿透，端口转发                              | https://github.com/inconshreveable/ngrok | ngrok       |
-| pingtunnel 是把 tcp/udp/sock5 流量伪装成 icmp  流量进行转发的工具 | https://github.com/esrrhs/pingtunnel     | pingtunnel  |
-| pystinger - 一款使用webshell进行流量转发的出网工具           | https://github.com/FunnyWolf/pystinger   | pystinger   |
-| goproxy 一款轻量级、功能强大、高性能的多种代理工具           | https://github.com/snail007/goproxy      | goproxy     |
-|                                                              |                                          |             |
-|                                                              |                                          |             |
-|                                                              |                                          |             |
-|                                                              |                                          |             |
+| 项目简介                                                     | 项目地址                                             | 项目名称                 |
+| ------------------------------------------------------------ | ---------------------------------------------------- | ------------------------ |
+| 全平台代理工具，支持多种socks协议                            | https://www.proxifier.com/                           | proxifier                |
+| 开源的跨平台对手仿真/红队框架                                | https://github.com/BishopFox/sliver                  | sliver                   |
+| 专注于内网穿透的高性能的反向代理应用                         | https://github.com/fatedier/frp                      | frp                      |
+| Erfrp-frp二开-免杀与隐藏                                     | https://github.com/Goqi/Erfrp                        | Erfrp                    |
+| 轻量级、高性能、功能强大的内网穿透代理服务器                 | https://github.com/ehang-io/nps                      | nps                      |
+| 改进的reGeorg版本                                            | https://github.com/L-codes/Neo-reGeorg               | Neo-reGeorg              |
+| 是一款利用dns协议传输tcp数据的工具                           | https://github.com/alex-sector/dns2tcp               | dns2tcp                  |
+| 是一个DNS隧道工具                                            | https://github.com/iagox86/dnscat2                   | dnscat2                  |
+| 一个简单的 reverse ICMP shell                                | https://github.com/inquisb/icmpsh                    | icmpsh                   |
+| pingtunnel 是把 tcp/udp/sock5 流量伪装成 icmp  流量进行转发的工具 | https://github.com/esrrhs/pingtunnel                 | pingtunnel               |
+| 正/反向代理，内网穿透，端口转发                              | https://github.com/inconshreveable/ngrok             | ngrok                    |
+| pystinger - 一款使用webshell进行流量转发的出网工具           | https://github.com/FunnyWolf/pystinger               | pystinger                |
+| goproxy 一款轻量级、功能强大、高性能的多种代理工具           | https://github.com/snail007/goproxy                  | goproxy                  |
+| 内网渗透代理、端口转发工具                                   | http://rootkiter.com/Termite/                        | Termite                  |
+| 一款golang写的支持http与socks5的端口复用小工具，并且可以开启socks5代理。 | https://github.com/TryGOTry/multiplexing_port_socks5 | multiplexing_port_socks5 |
+| golang 实现的windows and linux 端口复用工具。                | https://github.com/p1d3er/port_reuse                 | port_reuse               |
+|                                                              |                                                      |                          |
+|                                                              |                                                      |                          |
+|                                                              |                                                      |                          |
 
 ## 优秀免杀项目
 
@@ -709,6 +730,7 @@
 | 掩日 - 免杀执行器生成工具 用于快速生成免杀的 EXE 可执行文件  | https://github.com/1y0n/AV_Evasion_Tool        | AV_Evasion_Tool      |
 | 自动化生成 EDR 软件 Bypass Payload 的工具,一键化签名免杀     | https://github.com/optiv/ScareCrow             | ScareCrow            |
 | 梅花K战队写的Nim一键免杀源码 使用nim语言进行shellcode加载    | https://github.com/M-Kings/BypassAv-web        | BypassAv-web         |
+| 一键窃取文件的图标、资源信息、版本信息、修改时间、数字签名，降低程序熵值 | https://github.com/INotGreen/SharpThief        | SharpThief           |
 
 ## 权限维持工具
 
@@ -810,7 +832,8 @@
 | 项目简介                                                     | 项目地址                                                | 项目名称                  |
 | ------------------------------------------------------------ | ------------------------------------------------------- | ------------------------- |
 | 【三万字原创】完全零基础从0到1掌握Java内存马，公众号：追梦信安 | https://github.com/W01fh4cker/LearnJavaMemshellFromZero | LearnJavaMemshellFromZero |
-|                                                              |                                                         |                           |
+| 该项目旨在竭尽所能的以简洁清晰的方式分享`Java安全`相关技术，将某些复杂的技术问题简单化，让更多的人能够学会`Java安全`。 | https://github.com/javaweb-sec/javaweb-sec              | javaweb-sec               |
+| 抽离出 utf-8-overlong-encoding 的序列化逻辑，实现 2 3 字节加密序列化数组 | https://github.com/Whoopsunix/utf-8-overlong-encoding   | utf-8-overlong-encoding   |
 
 ## 安全推送
 
@@ -820,6 +843,7 @@
 | 一个支持节点与订阅链接的 Linux 命令行代理工具                | https://github.com/mzz2017/gg                    | gg                     |
 | 一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~ | https://github.com/vvmdx/Sec-Interview-4-2023    | Sec-Interview-4-2023   |
 | 网络信息安全从业者面试指南                                   | https://github.com/FeeiCN/SecurityInterviewGuide | SecurityInterviewGuide |
+| Security-related Slide Presentation & Security Research Report（大安全各领域各公司各会议分享的PPT以及各类安全研究报告） | https://github.com/FeeiCN/Security-PPT           | Security-PPT           |
 
 ## 实战红蓝资料集锦
 
