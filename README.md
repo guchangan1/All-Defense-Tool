@@ -87,17 +87,18 @@
 | ------------------------------------------------------------ | --------------------------------------------- | ------------- |
 | 单兵作战武器库，你值得拥有                                   | https://github.com/yaklang/yakit              | yakit         |
 | ScopeSentry-网络空间测绘、子域名枚举、端口扫描、敏感信息发现、漏洞扫描、分布式节点 | https://github.com/Autumn-27/ScopeSentry-Scan | ScopeSentry   |
+| CyberEdge 是一款精心设计的互联网资产测绘工具，为网络安全专业人士提供精准、高效的扫描体验。 | https://github.com/Symph0nia/CyberEdge        | CyberEdge     |
 | 一款GUI界面的渗透工具，将部分人工经验转换为自动化，集成了渗透过程中常用到的一些功能，目前集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能，后续会持续更新。 | https://github.com/lz520520/railgun           | Railgun       |
 | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、端口扫描、批量信息权重查询、密码字典等功能 | https://github.com/kkbo8005/mitan             | mitan         |
+| **Nemo**是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。 | https://github.com/hanc00l/nemo_go            | nemo_go       |
 | DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、企业微信通知。 | https://github.com/Bywalks/DarkAngel          | DarkAngel     |
+| 分布式资产信息收集和漏洞扫描平台                             | https://github.com/1in9e/gosint               | gosint        |
 | 一条龙服务，只需要输入根域名即可全方位收集相关资产，并检测漏洞。也可以输入多个域名、C段IP等，具体案例见下文。 | https://github.com/0x727/ShuiZe_0x727         | ShuiZe_0x727  |
 | 自动化巡航扫描框架（可用于红队打点评估）                     | https://github.com/b0bac/ApolloScanner        | ApolloScanner |
 | 可针对指定IP段、资产清单、存活网段自动化进行端口扫描以及TCP指纹识别和Banner抓取 | https://github.com/lcvvvv/kscan               | kscan         |
 | 集成 vscan、nuclei、ksubdomain、subfinder等，充分自动化、智能化 并对这些集成的项目进行代码级别优化、参数优化，个别模块,如 vscan filefuzz部分进行了重写 | https://github.com/GhostTroops/scan4all       | scan4all      |
 | 一个辅助平常渗透测试项目或者攻防项目快速打点的综合工具       | https://github.com/P1-Team/AlliN              | AlliN         |
 | 一个漏洞扫描器粘合剂,添加目标后30款工具自动调用              | https://github.com/78778443/QingScan          | QingScan      |
-| 分布式资产信息收集和漏洞扫描平台                             | https://github.com/1in9e/gosint               | gosint        |
-| nemo_go自动化信息收集                                        | https://github.com/hanc00l/nemo_go            | nemo_go       |
 | 从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统         | https://github.com/CTF-MissFeng/bayonet       | bayonet       |
 | 一个高度可定制Web自动化扫描框架                              | https://github.com/r3curs1v3-pr0xy/vajra      | vajra         |
 | reconFTW 集成了30个工具的信息收集利器                        | https://github.com/six2dez/reconftw           | reconftw      |
@@ -157,6 +158,7 @@
 | Directory/File, DNS and VHost busting tool written in Go     | https://github.com/OJ/gobuster                    | gobuster       |
 | 用Go编写的模糊测试工具                                       | https://github.com/ffuf/ffuf                      | ffuf           |
 | Next Generation HTTP Dir/File Fuzz Tool                      | https://github.com/chainreactors/spray            | spray          |
+| 通过提取自动加载和静态地址中的JS和页面内容，解析Webpack打包和使用正则匹配技术，发现API接口及Base URL。 | https://github.com/0x727/ChkApi_0x727             | ChkApi_0x727   |
 | Fast passive URL enumeration tool.                           | https://github.com/chainreactors/urlfounder       | urlfounder     |
 | 一个高级web目录、文件扫描工具                                | https://github.com/H4ckForJob/dirmap              | dirmap         |
 | 网站的敏感目录发掘工具                                       | https://github.com/deibit/cansina                 | cansina        |
@@ -203,6 +205,20 @@
 |                                                           |                                                       |            |
 |                                                           |                                                       |            |
 
+
+
+## 前端加解密工具
+
+| 项目简介                                                     | 项目地址                              | 项目名称    |
+| ------------------------------------------------------------ | ------------------------------------- | ----------- |
+| 提供更多更好的JS逆向工具，让JS逆向变得简单。                 | https://github.com/JSREI              | JSREI       |
+| 一款支持多种加密算法、或直接执行浏览器JS代码的BurpSuite插件。 | https://github.com/whwlsfb/BurpCrypto | BurpCrypto  |
+| 一个想让你测试加密流量像测试明文一样简单高效的 Burp 插件。   | https://github.com/outlaws-bai/Galaxy | Galaxy      |
+| 根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转 | https://github.com/f0ng/autoDecoder   | autoDecoder |
+| 远程调用(rpc)浏览器方法，免去抠代码补环境                    | https://github.com/jxhczhl/JsRpc      | JsRpc       |
+| 基于CDP实现的远程JS debug工具                                | https://github.com/1oid/remotejs      | remotejs    |
+|                                                              |                                       |             |
+
 ## Burp插件
 
 | 项目简介                                                     | 项目地址                                                | 项目名称                |
@@ -223,10 +239,6 @@
 | GadgetProbe Burp插件 用来爆破远程类查找Java反序列化          | https://github.com/BishopFox/GadgetProbe                | GadgetProbe             |
 | HopLa 自动补全 Payload 的 BurpSuite插件                      | https://github.com/synacktiv/HopLa                      | HopLa                   |
 | 验证码识别                                                   | https://github.com/f0ng/captcha-killer-modified         | captcha-killer-modified |
-| 一款支持多种加密算法、或直接执行浏览器JS代码的BurpSuite插件。 | https://github.com/whwlsfb/BurpCrypto                   | BurpCrypto              |
-| 一个想让你测试加密流量像测试明文一样简单高效的 Burp 插件。   | https://github.com/outlaws-bai/Galaxy                   | Galaxy                  |
-| 根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转 | https://github.com/f0ng/autoDecoder                     | autoDecoder             |
-| Burp插件，实现在HTTP报文二次加密场景下自动解密的功能。       | https://github.com/outlaws-bai/Galaxy                   | Galaxy                  |
 | 伪造ip地址                                                   | https://github.com/TheKingOfDuck/burpFakeIP             | burpFakeIP              |
 | 自动发送请求                                                 | https://github.com/nccgroup/AutoRepeater                | AutoRepeater            |
 | 自动探测请求走私漏洞                                         | https://github.com/portswigger/http-request-smuggler    | http-request-smuggler   |
@@ -239,6 +251,10 @@
 | Tls指纹特征绕过插件\|Bypass                                  | https://github.com/sleeyax/burp-awesome-tls             | burp-awesome-tls        |
 | BurpSuite插件实现被动指纹识别+网站提取链接+OA爆破，可帮助我们发现更多资产。 | https://github.com/shuanx/BurpFingerPrint               | BurpFingerPrint         |
 | 攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授权/敏感信息/越权/登陆接口等。 | https://github.com/shuanx/BurpAPIFinder                 | BurpAPIFinder           |
+|                                                              |                                                         |                         |
+|                                                              |                                                         |                         |
+|                                                              |                                                         |                         |
+|                                                              |                                                         |                         |
 |                                                              |                                                         |                         |
 
 ## 浏览器插件
@@ -299,6 +315,7 @@
 | （推荐）微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具 | https://github.com/wux1an/wxapkg                        | wxapkg                            |
 | 全自动化，微信小程序 wxapkg 包 源代码还原工具, 线上代码安全审计 | https://github.com/biggerstar/wedecode                  | wedecode                          |
 | 微信小程序辅助渗透-自动化                                    | https://github.com/eeeeeeeeee-code/e0e1-wx              | e0e1-wx                           |
+| 自动化反编译微信小程序，小程序安全评估工具，发现小程序安全问题，自动解密，解包，可还原工程目录，支持Hook，小程序修改 | https://github.com/Ackites/KillWxapkg                   | KillWxapkg                        |
 | 一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件 | https://github.com/ezshine/wxapkg-convertor             | wxapkg-convertor                  |
 | 微信小程序主包解密工具                                       | https://github.com/BlackTrace/pc_wxapkg_decrypt         | pc_wxapkg_decrypt                 |
 | 微信小程序反编译                                             | https://github.com/qwerty472123/wxappUnpacker           | wxappUnpacker（自行寻找备份仓库） |
@@ -473,7 +490,7 @@
 | 一款面向企业的渗透测试字典生成工具。                         | https://github.com/ccc-f/Fdict             | Fdict      |
 | 爆破Azure, ADFS, OWA, O365, Teams，smtp                      | https://github.com/nodauf/GoMapEnum        | GoMapEnum  |
 | Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破工具 | https://github.com/Fly-Playgroud/Boom      | Boom       |
-|                                                              |                                            |            |
+| 一款利用爬虫技术实现前端JS加密自动化绕过的渗透测试工具       | https://github.com/LiChaser/SpiderX        | SpiderX    |
 |                                                              |                                            |            |
 
 ## 全网字典收集
@@ -519,7 +536,7 @@
 | 用于测试、调整和破解JSON Web令牌的工具包                     | https://github.com/ticarpi/jwt_tool                          | jwt_tool                          |
 | jwt hack是jwt黑客/安全测试的工具。支持En/解码JWT，生成JWT攻击和非常快速破解的有效载荷（dict/brutefoce） | https://github.com/hahwul/jwt-hack                           | jwt-hack                          |
 | XSS spider - 66/66 wavsep XSS detected                       | https://github.com/DanMcInerney/xsscrapy                     | xsscrapy                          |
-|                                                              |                                                              |                                   |
+| 针对JWT渗透开发的漏洞验证/密钥爆破工具，针对CVE-2015-9235/空白密钥/未验证签名攻击/CVE-2016-10555/CVE-2018-0114/CVE-2020-28042的结果生成用于FUZZ，也可使用字典/字符枚举(包括JJWT)的方式进行爆破(JWT Crack) | https://github.com/z-bool/Venom-JWT                          | Venom-JWT                         |
 
 ## 反序列化利用工具
 
@@ -629,7 +646,7 @@
 | 项目简介                                                     | 项目地址                                 | 项目名称       |
 | ------------------------------------------------------------ | ---------------------------------------- | -------------- |
 | 绕过瑞数waf的动态验证机制，实现请求包重放，可针对不同网站使用。 | https://github.com/R0A1NG/Botgate_bypass | Botgate_bypass |
-|                                                              |                                          |                |
+| 一个基于fuzz的waf绕过测试工具，当前支持命令执行、SQL注入绕过。 | https://github.com/leveryd/x-waf         | x-waf          |
 
 
 
@@ -706,6 +723,7 @@
 
 | 项目简介                                                     | 项目地址                                   | 项目名称      |
 | ------------------------------------------------------------ | ------------------------------------------ | ------------- |
+| 支持自动化一键 Hunting 主机各类关键信息和凭据，降低后渗透阶段操作的割裂感，有效拓宽后渗透攻击面 | https://github.com/lintstar/SharpHunter    | SharpHunter   |
 | 内网资产收集、探测主机存活、端口扫描、域控定位、文件搜索、各种服务爆破（SSH、SMB、MsSQL等）、Socks代理，一键自动化+无文件落地扫描 | https://github.com/INotGreen/SharpScan     | SharpScan     |
 | Fscan 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 | https://github.com/shadow1ng/fscan         | fscan         |
 | 一款快速探测内网可达网段工具（深信服深蓝实验室天威战队强力驱动） | https://github.com/shmilylty/netspy        | netspy        |
@@ -999,13 +1017,17 @@
 | Web-Security-Learning                                        | https://github.com/CHYbeta/Web-Security-Learning        | Web-Security-Learning     |
 | 一款更利于全面学习内存马的注入工具                           | https://github.com/ReaJason/MemShellParty               | MemShellParty             |
 
-## AI安全
+## AI-LLM相关资料
 
-| 项目简介       | 项目地址                                          | 项目名称              |
-| -------------- | ------------------------------------------------- | --------------------- |
-| Prompt越狱手册 | https://github.com/Acmesec/PromptJailbreakManual/ | PromptJailbreakManual |
-|                |                                                   |                       |
-|                |                                                   |                       |
+| 项目简介                                                     | 项目地址                                                    | 项目名称                       |
+| ------------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------ |
+| 大模型学习导航                                               | https://github.com/Y4tacker/LLM-Navigation                  | LLM-Navigation                 |
+| Ai迷思录（应用与安全指南）                                   | https://github.com/Acmesec/theAIMythbook                    | theAIMythbook                  |
+| Prompt越狱手册                                               | https://github.com/Acmesec/PromptJailbreakManual/           | PromptJailbreakManual          |
+| 通过各厂商大模型应用中已公开的信息挖掘潜在的安全问题并公开一些技术细节 | https://github.com/LLM-Red-Team                             | LLM-Red-Team                   |
+| AIGC 求职面经、必备基础知识、提示词工程、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切~ | https://github.com/EmbraceAGI/AIGC_Interview                | AIGC_Interview                 |
+| 《AI 研发提效：构建 AI 辅助编码助手》                        | https://github.com/unit-mesh/build-your-ai-coding-assistant | build-your-ai-coding-assistant |
+|                                                              |                                                             |                                |
 
 
 
@@ -1037,6 +1059,7 @@
 | 也许这是国内第一个云安全知识文库                             | https://wiki.teamssix.com/About/                          | T Wiki                            |
 | 从零开始的Kubernetes攻防                                     | https://github.com/neargle/my-re0-k8s-security            | my-re0-k8s-security               |
 | KubeHound 是一个专为 Kubernetes 设计的工具，它通过自动化的方式计算集群内资源之间的潜在攻击路径。这一工具的核心价值在于其能够提供全面的集群扫描，生成直观的攻击图，并提出针对性的保护策略。 | https://github.com/DataDog/KubeHound                      | KubeHound                         |
+| CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的 逃逸、横向移动、持久化利用方式，插件化管理 | https://github.com/cdk-team/CDK                           | CDK                               |
 | 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等 | https://github.com/dark-kingA/cloudTools                  | cloudTools                        |
 | 六大云存储，泄露利用检测工具                                 | https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools | Cloud-Bucket-Leak-Detection-Tools |
 | 云环境利用框架 Cloud Exploitation Framework 方便红队人员在获得 AK 的后续工作 | https://github.com/teamssix/cf                            | cf                                |
