@@ -88,7 +88,9 @@
 | 单兵作战武器库，你值得拥有                                   | https://github.com/yaklang/yakit              | yakit         |
 | ScopeSentry-网络空间测绘、子域名枚举、端口扫描、敏感信息发现、漏洞扫描、分布式节点 | https://github.com/Autumn-27/ScopeSentry-Scan | ScopeSentry   |
 | CyberEdge 是一款精心设计的互联网资产测绘工具，为网络安全专业人士提供精准、高效的扫描体验。 | https://github.com/Symph0nia/CyberEdge        | CyberEdge     |
+| dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标 | https://github.com/SleepingBag945/dddd        | dddd          |
 | 一款GUI界面的渗透工具，将部分人工经验转换为自动化，集成了渗透过程中常用到的一些功能，目前集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能，后续会持续更新。 | https://github.com/lz520520/railgun           | Railgun       |
+| 安全服务集成化工具平台                                       | https://github.com/qiwentaidi/Slack           | Slack         |
 | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、端口扫描、批量信息权重查询、密码字典等功能 | https://github.com/kkbo8005/mitan             | mitan         |
 | **Nemo**是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。 | https://github.com/hanc00l/nemo_go            | nemo_go       |
 | DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、企业微信通知。 | https://github.com/Bywalks/DarkAngel          | DarkAngel     |
@@ -178,6 +180,7 @@
 | 项目简介                                                 | 项目地址                                         | 项目名称       |
 | -------------------------------------------------------- | ------------------------------------------------ | -------------- |
 | 红队重点攻击系统指纹探测工具                             | https://github.com/EdgeSecurityTeam/EHole        | EHole(棱洞)3.0 重构版 |
+| EHole(棱洞)魔改。可对路径进行指纹识别；支持识别出来的重点资产进行漏洞检测(支持从hunter和fofa中提取资产)支持对ftp服务识别及爆破 | https://github.com/lemonlove7/EHole_magic | EHole_magic |
 | 跨平台指纹识别工具 | https://github.com/0x727/ObserverWard | ObserverWard |
 | Glass是一款针对资产列表的快速指纹识别工具                | https://github.com/s7ckTeam/Glass                | Glass          |
 | 红队行动下的重点资产指纹识别工具 | https://github.com/P001water/P1finger | P1finger |
@@ -192,32 +195,33 @@
 
 ## 端口扫描工具
 
-| 项目简介                                                  | 项目地址                                              | 项目名称   |
-| --------------------------------------------------------- | ----------------------------------------------------- | ---------- |
-| naabu 用 go 编写的快速端口扫描器                          | https://github.com/projectdiscovery/naabu             | naabu      |
-| TXPortMap 实用型的端口扫描、服务识别工具                  | https://github.com/4dogs-cn/TXPortMap                 | TXPortMap  |
-| 使用Golang开发的高并发网络扫描、服务探测工具              | https://github.com/Adminisme/ServerScan               | serverScan |
-| masnmapscan 一款端口扫描器。整合了masscan和nmap两款扫描器 | https://github.com/hellogoldsnakeman/masnmapscan-V1.0 | 整合扫描器 |
-| gonmap是一个go语言的nmap端口扫描库                        | https://github.com/lcvvvv/gonmap                      | gonmap     |
-| 光速扫描                                                  | http://pan.baidu.com/s/1pLjaQKF                       | 小米范     |
-| 在线端口扫描1                                             | http://coolaf.com/tool/port                           | 在线工具   |
-| 在线端口扫描2                                             | http://tool.cc/port/                                  | 在线工具2  |
-|                                                           |                                                       |            |
-|                                                           |                                                       |            |
+| 项目简介                                                     | 项目地址                                              | 项目名称   |
+| ------------------------------------------------------------ | ----------------------------------------------------- | ---------- |
+| **MX1014** 是一个遵循 **“短平快”** 原则的灵活、轻便和快速端口扫描器 (满足红队需求的出网测试、网段探测和快速高危端口扫描等需求) | https://github.com/L-codes/MX1014                     | MX1014     |
+| naabu 用 go 编写的快速端口扫描器                             | https://github.com/projectdiscovery/naabu             | naabu      |
+| TXPortMap 实用型的端口扫描、服务识别工具                     | https://github.com/4dogs-cn/TXPortMap                 | TXPortMap  |
+| 使用Golang开发的高并发网络扫描、服务探测工具                 | https://github.com/Adminisme/ServerScan               | serverScan |
+| masnmapscan 一款端口扫描器。整合了masscan和nmap两款扫描器    | https://github.com/hellogoldsnakeman/masnmapscan-V1.0 | 整合扫描器 |
+| gonmap是一个go语言的nmap端口扫描库                           | https://github.com/lcvvvv/gonmap                      | gonmap     |
+| 光速扫描                                                     | http://pan.baidu.com/s/1pLjaQKF                       | 小米范     |
+| 在线端口扫描1                                                | http://coolaf.com/tool/port                           | 在线工具   |
+| 在线端口扫描2                                                | http://tool.cc/port/                                  | 在线工具2  |
+|                                                              |                                                       |            |
 
 
 
 ## 前端加解密工具
 
-| 项目简介                                                     | 项目地址                              | 项目名称    |
-| ------------------------------------------------------------ | ------------------------------------- | ----------- |
-| 提供更多更好的JS逆向工具，让JS逆向变得简单。                 | https://github.com/JSREI              | JSREI       |
-| 一款支持多种加密算法、或直接执行浏览器JS代码的BurpSuite插件。 | https://github.com/whwlsfb/BurpCrypto | BurpCrypto  |
-| 一个想让你测试加密流量像测试明文一样简单高效的 Burp 插件。   | https://github.com/outlaws-bai/Galaxy | Galaxy      |
-| 根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转 | https://github.com/f0ng/autoDecoder   | autoDecoder |
-| 远程调用(rpc)浏览器方法，免去抠代码补环境                    | https://github.com/jxhczhl/JsRpc      | JsRpc       |
-| 基于CDP实现的远程JS debug工具                                | https://github.com/1oid/remotejs      | remotejs    |
-|                                                              |                                       |             |
+| 项目简介                                                     | 项目地址                                    | 项目名称           |
+| ------------------------------------------------------------ | ------------------------------------------- | ------------------ |
+| 浏览器内存漫游解决方案                                       | https://github.com/JSREI/ast-hook-for-js-RE | ast-hook-for-js-RE |
+| 一款支持多种加密算法、或直接执行浏览器JS代码的BurpSuite插件。 | https://github.com/whwlsfb/BurpCrypto       | BurpCrypto         |
+| 一个想让你测试加密流量像测试明文一样简单高效的 Burp 插件。   | https://github.com/outlaws-bai/Galaxy       | Galaxy             |
+| 根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转 | https://github.com/f0ng/autoDecoder         | autoDecoder        |
+| 远程调用(rpc)浏览器方法，免去抠代码补环境                    | https://github.com/jxhczhl/JsRpc            | JsRpc              |
+| 基于CDP实现的远程JS debug工具                                | https://github.com/1oid/remotejs            | remotejs           |
+| 一款利用爬虫技术实现前端JS加密自动化绕过的渗透测试工具       | https://github.com/LiChaser/SpiderX         | SpiderX            |
+|                                                              |                                             |                    |
 
 ## Burp插件
 
@@ -225,6 +229,8 @@
 | ------------------------------------------------------------ | ------------------------------------------------------- | ----------------------- |
 | 有关burpsuite的插件(非商店),文章以及使用技巧的收集           | https://github.com/Mr-xn/BurpSuite-collections          | BurpSuite-collections   |
 | 一个集成的BurpSuite漏洞探测插件                              | https://github.com/Tsojan/TsojanScan                    | TsojanScan              |
+| HaE 请求高亮标记与信息提取的辅助型 BurpSuite 插件            | https://github.com/gh0stkey/HaE                         | HaE                     |
+| 分析、拆解HTTP协议报文，提取HTTP协议报文中的参数、路径、文件、参数值等信息，并统计出现的频次，帮助用户构建出具有实战应用价值的Fuzzing字典。 | https://github.com/gh0stkey/CaA                         | CaA                     |
 | 一个集成的BurpSuite漏洞探测插件2                             | https://github.com/kN6jq/gatherBurp                     | gatherBurp              |
 | OneScan是递归目录扫描的BurpSuite插件。                       | https://github.com/vaycore/OneScan                      | OneScan                 |
 | 解析提取接口路径+参数                                        | https://github.com/xnl-h4ck3r/GAP-Burp-Extension        | GAP-Burp-Extension      |
@@ -233,7 +239,6 @@
 | 一个简单的Fastjson反序列化检测burp插件                       | https://github.com/Maskhe/FastjsonScan                  | FastjsonScan            |
 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为dhcp、ibatis、c3p0 | https://github.com/skisw/fastjson-exp                   | fastjson-exp            |
 | 添加一些右键菜单让burp用起来更顺畅                           | https://github.com/bit4woo/knife                        | knife                   |
-| HaE 请求高亮标记与信息提取的辅助型 BurpSuite 插件            | https://github.com/gh0stkey/HaE                         | HaE                     |
 | domain_hunter_pro 一个资产管理类的Burp插件                   | https://github.com/bit4woo/domain_hunter_pro            | domain_hunter_pro       |
 | 新一代子域名主/被动收集工具                                  | https://github.com/Acmesec/Sylas                        | Sylas                   |
 | GadgetProbe Burp插件 用来爆破远程类查找Java反序列化          | https://github.com/BishopFox/GadgetProbe                | GadgetProbe             |
@@ -356,7 +361,6 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
 | 高危漏洞精准检测与深度利用框架                               | https://github.com/woodpecker-framework/woodpecker-framwork-release | woodpecker-framwork |
 | 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。            | https://github.com/projectdiscovery/nuclei                   | nuclei              |
-| 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！           | https://github.com/ExpLangcn/NucleiTP                        | NucleiTP            |
 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具   | https://github.com/zan8in/afrog                              | afrog               |
 | EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。 | https://github.com/m-sec-org/EZ                              | EZ                  |
 | 一款功能强大的安全评估工具                                   | https://github.com/chaitin/xray                              | Xray                |
@@ -366,6 +370,7 @@
 | 一个应用于web安全领域的漏洞批量扫描框架                      | https://github.com/bigblackhat/oFx                           | oFx                 |
 | 是一款 web 漏洞扫描和验证工具                                | https://github.com/zhzyker/vulmap                            | Vulmap              |
 | 一款全面而强大的漏洞扫描和利用工具                           | https://github.com/yhy0/Jie                                  | Jie                 |
+| 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！           | https://github.com/ExpLangcn/NucleiTP                        | NucleiTP            |
 |                                                              |                                                              |                     |
 
 ## 中间件/应用漏洞利用工具
@@ -481,17 +486,17 @@
 
 ## 爆破利用工具
 
-| 项目简介                                                     | 项目地址                                   | 项目名称   |
-| ------------------------------------------------------------ | ------------------------------------------ | ---------- |
-| 还是推荐fscan吧，还是还用，更新也快                          | https://github.com/shadow1ng/fscan         | fscan      |
-| 爆破神器，懂得都懂                                           | https://github.com/vanhauser-thc/thc-hydra | hydra      |
-| 超级弱口令检查工具是一款Windows平台的弱口令审计工具          | https://github.com/shack2/SNETCracker      | 超级弱口令 |
-| 集合了fscan和kscan等优秀工具功能的扫描爆破工具。             | https://github.com/i11us0ry/goon           | goon       |
-| 一款面向企业的渗透测试字典生成工具。                         | https://github.com/ccc-f/Fdict             | Fdict      |
-| 爆破Azure, ADFS, OWA, O365, Teams，smtp                      | https://github.com/nodauf/GoMapEnum        | GoMapEnum  |
-| Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破工具 | https://github.com/Fly-Playgroud/Boom      | Boom       |
-| 一款利用爬虫技术实现前端JS加密自动化绕过的渗透测试工具       | https://github.com/LiChaser/SpiderX        | SpiderX    |
-|                                                              |                                            |            |
+| 项目简介                                                     | 项目地址                                   | 项目名称    |
+| ------------------------------------------------------------ | ------------------------------------------ | ----------- |
+| 还是推荐fscan吧，还是还用，更新也快                          | https://github.com/shadow1ng/fscan         | fscan       |
+| zombie主要为了解决需要全场景(外网、内网、云)的服务的口令爆破功能 | https://github.com/chainreactors/zombie    | zombie      |
+| 爆破神器，懂得都懂                                           | https://github.com/vanhauser-thc/thc-hydra | hydra       |
+| 超级弱口令检查工具是一款Windows平台的弱口令审计工具          | https://github.com/shack2/SNETCracker      | 超级弱口令  |
+| FTP,SSH,MYSQL,MSSQL等弱口令爆破工具                          | https://github.com/BBD-YZZ/week-passwd     | week-passwd |
+|                                                              |                                            |             |
+| 一款面向企业的渗透测试字典生成工具。                         | https://github.com/ccc-f/Fdict             | Fdict       |
+| 爆破Azure, ADFS, OWA, O365, Teams，smtp                      | https://github.com/nodauf/GoMapEnum        | GoMapEnum   |
+| Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破工具 | https://github.com/Fly-Playgroud/Boom      | Boom        |
 
 ## 全网字典收集
 
@@ -613,7 +618,7 @@
 | IDEA静态代码安全审计及漏洞一键修复插件                       | https://github.com/momosecurity/momo-code-sec-inspector-java | momo-code-sec-inspector-java |
 | IDEA代码审计辅助插件（深信服深蓝实验室天威战队强力驱动）     | https://github.com/KimJun1010/inspector?tab=readme-ov-file   | inspector                    |
 | 一款无需解压直接编辑修改jar包内文件的IDEA插件                | https://github.com/Liubsyy/JarEditor                         | JarEditor                    |
-|                                                              |                                                              |                              |
+| JADX-GUI-AI 是一个在 JADX 基础上增强的智能反编译工具，集成了 AI 辅助功能，可以帮助开发者更好地理解和分析反编译后的代码 | https://github.com/cncsnet1/jadx-gui-ai                      | jadx-gui-ai                  |
 |                                                              |                                                              |                              |
 |                                                              |                                                              |                              |
 
@@ -681,7 +686,7 @@
 | 跨平台版中国菜刀                       | https://github.com/Chora10/Cknife                 | Cknife                |
 | 用于生成各类免杀webshell               | https://github.com/cseroad/Webshell_Generate      | Webshell_Generate     |
 | 从零学习Webshell免杀手册               | https://github.com/AabyssZG/WebShell-Bypass-Guide | WebShell-Bypass-Guide |
-|                                        |                                                   |                       |
+| webshell收集项目，项目涵盖各种常用脚本 | https://github.com/tennc/webshell                 | webshell              |
 |                                        |                                                   |                       |
 |                                        |                                                   |                       |
 |                                        |                                                   |                       |
@@ -710,32 +715,51 @@
 
 ## 提权项目
 
-| 项目简介               | 项目地址                                | 项目名称 |
-| ---------------------- | --------------------------------------- | -------- |
-| Linux自动提权          | https://github.com/liamg/traitor        | traitor  |
-| 提权辅助页             | https://i.hacking8.com/tiquan/          | hacking8 |
-| 全平台系统提权辅助工具 | https://github.com/carlospolop/PEASS-ng | PEASS-ng |
-|                        |                                         |          |
+| 项目简介                                                  | 项目地址                                | 项目名称  |
+| --------------------------------------------------------- | --------------------------------------- | --------- |
+| Linux自动提权                                             | https://github.com/liamg/traitor        | traitor   |
+| 提权辅助页                                                | https://i.hacking8.com/tiquan/          | hacking8  |
+| 全平台系统提权辅助工具                                    | https://github.com/carlospolop/PEASS-ng | PEASS-ng  |
+| 一个聚合了linux、windows、macOS的提权漏洞合集，带复现过程 | https://github.com/Ascotbe/Kernelhub    | Kernelhub |
 
-
-
-## 内网收集工具
+## 内网扫描工具
 
 | 项目简介                                                     | 项目地址                                   | 项目名称      |
 | ------------------------------------------------------------ | ------------------------------------------ | ------------- |
-| 支持自动化一键 Hunting 主机各类关键信息和凭据，降低后渗透阶段操作的割裂感，有效拓宽后渗透攻击面 | https://github.com/lintstar/SharpHunter    | SharpHunter   |
-| 内网资产收集、探测主机存活、端口扫描、域控定位、文件搜索、各种服务爆破（SSH、SMB、MsSQL等）、Socks代理，一键自动化+无文件落地扫描 | https://github.com/INotGreen/SharpScan     | SharpScan     |
 | Fscan 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 | https://github.com/shadow1ng/fscan         | fscan         |
 | 一款快速探测内网可达网段工具（深信服深蓝实验室天威战队强力驱动） | https://github.com/shmilylty/netspy        | netspy        |
 | 下一代RedTeam启发式内网扫描                                  | https://github.com/1n7erface/Template      | Template      |
+| 内网资产收集、探测主机存活、端口扫描、域控定位、文件搜索、各种服务爆破（SSH、SMB、MsSQL等）、Socks代理，一键自动化+无文件落地扫描 | https://github.com/INotGreen/SharpScan     | SharpScan     |
+| 一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种 | https://github.com/qi4L/qscan              | qscan         |
 | 一款更高、更快、更强的全方位内网扫描工具                     | https://github.com/P001water/P1soda        | P1soda        |
 | Ladon一款用于大型网络渗透的多线程插件化综合扫描神器          | https://github.com/k8gege/Ladon            | Ladon         |
-| Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。 | https://github.com/qwqdanchun/Pillager     | Pillager      |
 | 一款快速探测内网主机信息工具（深信服深蓝实验室天威战队强力驱动） | https://github.com/shmilylty/SharpHostInfo | SharpHostInfo |
 | 红队小工具 ，利用DCERPC协议获取Windows机器主机信息和多网卡信息 | https://github.com/Y0-kan/HostInfoScan     | HostInfoScan  |
 | ATAttack是一款后渗透半自动化侦察工具，它从进攻性和防御性安全角度执行许多面向安全性的主机调查“安全检查”。 | https://github.com/c1y2m3/ATAttack         | ATAttack      |
 | 集权设施扫描器                                               | https://github.com/Amulab/CAudit           | CAudit        |
 |                                                              |                                            |               |
+
+
+
+## 本机收集工具
+
+| 项目简介                                                     | 项目地址                                       | 项目名称     |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------ |
+| GodInfo 是一个功能全面的后渗透信息和凭据收集工具，旨在帮助安全测试人员在获得授权访问权限后，快速收集目标系统的信息和凭据。 | https://github.com/Conan924/GodInfo            | GodInfo      |
+| 支持自动化一键 Hunting 主机各类关键信息和凭据，降低后渗透阶段操作的割裂感，有效拓宽后渗透攻击面 | https://github.com/lintstar/SharpHunter        | SharpHunter  |
+| 该工具主要用于后渗透方面                                     | https://github.com/eeeeeeeeee-code/e0e1-config | e0e1-config  |
+| Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。 | https://github.com/qwqdanchun/Pillager         | Pillager     |
+| 强大的敏感信息搜索工具                                       | https://github.com/Naturehi666/searchall       | searchall    |
+| 通用的数据库连接配置信息提取工具                             | https://github.com/corener/JavaPassDump        | JavaPassDump |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
+|                                                              |                                                |              |
 
 
 
@@ -787,8 +811,9 @@
 | Xdecrypt Xshell  Xftp 密码解密                               | https://github.com/dzxs/Xdecrypt                  | Xdecrypt               |
 | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息 | https://github.com/AdminTest0/SharpWxDump         | SharpWxDump            |
 | FakeLogonScreen 是一个伪造 Windows 登录屏幕以获取用户密码的实用程序。输入的密码将根据 Active Directory 或本地计算机进行验证，以确保其正确，然后显示到控制台或保存到磁盘。 | https://github.com/bitsadmin/fakelogonscreen      | fakelogonscreen        |
-| 强大的敏感信息搜索工具                                       | https://github.com/Naturehi666/searchall          | searchall              |
 | 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告 | https://github.com/LC044/WeChatMsg                | WeChatMsg              |
+|                                                              |                                                   |                        |
+|                                                              |                                                   |                        |
 
 ## 隧道代理工具
 
@@ -799,6 +824,7 @@
 | 专注于内网穿透的高性能的反向代理应用                         | https://github.com/fatedier/frp                      | frp                      |
 | Erfrp-frp二开-免杀与隐藏                                     | https://github.com/Goqi/Erfrp                        | Erfrp                    |
 | 基于frp-0.58.1魔改二开，随机化socks5账户密码及端口、钉钉上线下线通知、配置文件oss加密读取、域前置防止溯源、源码替换/编译混淆等 | https://github.com/CodeSecurityTeam/frp              | frp                      |
+| 一款golang写的支持http与socks5的端口复用小工具，并且可以开启socks5代理。 | https://github.com/TryGOTry/multiplexing_port_socks5 | multiplexing_port_socks5 |
 | 修改frp支持域前置与配置文件自删除                            | https://github.com/uknowsec/frpModify                | frpModify                |
 | 轻量级、高性能、功能强大的内网穿透代理服务器                 | https://github.com/ehang-io/nps                      | nps                      |
 | 改进的reGeorg版本                                            | https://github.com/L-codes/Neo-reGeorg               | Neo-reGeorg              |
@@ -810,9 +836,8 @@
 | pystinger - 一款使用webshell进行流量转发的出网工具           | https://github.com/FunnyWolf/pystinger               | pystinger                |
 | goproxy 一款轻量级、功能强大、高性能的多种代理工具           | https://github.com/snail007/goproxy                  | goproxy                  |
 | 内网渗透代理、端口转发工具                                   | http://rootkiter.com/Termite/                        | Termite                  |
-| 一款golang写的支持http与socks5的端口复用小工具，并且可以开启socks5代理。 | https://github.com/TryGOTry/multiplexing_port_socks5 | multiplexing_port_socks5 |
 | golang 实现的windows and linux 端口复用工具。                | https://github.com/p1d3er/port_reuse                 | port_reuse               |
-|                                                              |                                                      |                          |
+| grs内网穿透工具通过reality协议隐藏特征                       | https://github.com/howmp/reality                     | reality                  |
 |                                                              |                                                      |                          |
 
 ## 优秀免杀项目
@@ -851,7 +876,7 @@
 | 红/蓝队环境自动化部署工具                                    | https://github.com/ffffffff0x/f8x                | f8x                    |
 | 适合每个人的动态基础设施框架，轻松分配许多不同扫描工具的工作量，包括nmap、ffuf、masscan、核、meg等！ | https://github.com/pry0cc/axiom                  | axiom                  |
 | DNSLOG平台 golang 一键启动版                                 | https://github.com/yumusb/DNSLog-Platform-Golang | DNSLog-Platform-Golang |
-|                                                              |                                                  |                        |
+| 反连助手：发现可以映射本地端口的互联网IP，本工具可从hunter、quake、fofa等网络空间测绘平台，收集、探测互联网IP，并通过配置文件中的端口映射关系，把本地端口映射到互联网IP指定的端口，以便反弹shell等场景下使用。 | https://github.com/thinkoaa/Dlam                 | Dlam                   |
 |                                                              |                                                  |                        |
 
 ## 代理池
@@ -913,7 +938,7 @@
 | 实现对网络安全信息聚合，将安全相关的文章，数据，以及历届安全大会演讲的pptx,pdf进行了全文索引，方便检索。 | https://i.hacking8.com/forums/                               | hacking8             |
 | 网络安全相关的RSS订阅，帮助建立个人情报来源和日常知识库更新 更新频率: 每2个月一次 | https://github.com/zer0yu/CyberSecurityRSS                   | CyberSecurityRSS     |
 | 记录了个人用到的一些获取国内安全资讯的RSS地址。均为中文，方便自己抓取关键字。还有部分大佬的博客。均不分前后。 | https://github.com/zhengjim/Chinese-Security-RSS/            | Chinese-Security-RSS |
-|                                                              |                                                              |                      |
+| 这个仓库收集了所有在 GitHub 上能找到的 CVE 漏洞利用工具。    | https://github.com/XiaomingX/data-cve-poc                    | data-cve-poc         |
 
 
 
@@ -951,6 +976,7 @@
 
 | 项目简介                                                     | 项目地址                                                     | 项目名称          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
+| QDoctor是一款非传统意义上的ARK(Anti RootKit)工具。           | https://github.com/QAX-Anti-Virus/QDoctor                    | QDoctor           |
 | OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗恶意程序）的简写, OpenArk目标成为逆向工程师、编程人员的工具，同时也能为那些希望清理恶意软件的用户服务。以后也将会支持更多功能和命令。 | https://github.com/BlackINT3/OpenArk                         | OpenArk           |
 | 一个类似于PChunter的多功能分析工具（PChunter已无法适用于最新版windwos） | https://github.com/ClownQq/YDArk/                            | YDArk             |
 | 包含一系列免费的系统分析工具，如Process Explorer、启动项分析工具 AutoRuns等。 | https://docs.microsoft.com/zh-cn/sysinternals/downloads/     | SysinternalsSuite |
@@ -959,6 +985,7 @@
 | 火麒麟-网络安全应急响应工具(系统痕迹采集)                    | https://github.com/MountCloud/FireKylin                      | FireKylin         |
 | APT-Hunter Windows日志事件应急工具                           | https://github.com/ahmedkhlief/APT-Hunter                    | APT-Hunter        |
 | 基于Go编写的windows日志分析工具                              | https://github.com/Fheidt12/Windows_Log                      | Windows_Log       |
+| 基于Memprocfs和Volatility的可视化内存取证工具                | https://github.com/Tokeii0/LovelyMem                         | LovelyMem         |
 
 ## webshell查杀工具
 
@@ -1027,7 +1054,8 @@
 | 通过各厂商大模型应用中已公开的信息挖掘潜在的安全问题并公开一些技术细节 | https://github.com/LLM-Red-Team                             | LLM-Red-Team                   |
 | AIGC 求职面经、必备基础知识、提示词工程、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切~ | https://github.com/EmbraceAGI/AIGC_Interview                | AIGC_Interview                 |
 | 《AI 研发提效：构建 AI 辅助编码助手》                        | https://github.com/unit-mesh/build-your-ai-coding-assistant | build-your-ai-coding-assistant |
-|                                                              |                                                             |                                |
+| MCP-SecurityTools 是一个专注于收录和更新网络安全领域 MCP 的开源项目，旨在汇总、整理和优化各类与 MCP 相关的安全工具、技术及实战经验。 | https://github.com/Ta0ing/MCP-SecurityTools                 | MCP-SecurityTools              |
+| 面向基于MCP的AI工具的综合安全检查清单。由SlowMist构建，以保障大语言模型插件生态系统的安全。 | https://github.com/slowmist/MCP-Security-Checklist          | MCP-Security-Checklist         |
 
 
 
@@ -1065,12 +1093,6 @@
 | 云环境利用框架 Cloud Exploitation Framework 方便红队人员在获得 AK 的后续工作 | https://github.com/teamssix/cf                            | cf                                |
 | 云漏洞扫描工具                                               | https://github.com/Rnalter/ThunderCloud                   | ThunderCloud                      |
 | 云渗透测试工具包                                             | https://github.com/404tk/cloudtoolkit                     | cloudtoolkit                      |
-
-
-
-
-
-正在整理中………………
 
 ------
 如果你有更好的提议或者其他想法，欢迎联系。
