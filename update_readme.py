@@ -107,7 +107,14 @@ def update_readme(file_path):
                     pass
             
             # 2. 处理分隔行
-            if '---' in stripped_line:
+            # 检查是否为分隔行：所有单元格只包含 -, :, 空格
+            is_separator = True
+            for part in parts:
+                if not re.match(r'^[\s:-]+$', part):
+                    is_separator = False
+                    break
+            
+            if is_separator:
                 if header_processed and current_table_header:
                      # 确保分隔行长度与表头一致
                     while len(parts) < len(current_table_header):
