@@ -106,7 +106,7 @@
 
 ## AI 安全攻防相关Plugins/Skill/MCP
 
-实际上不太建议高级模型装载一些所谓的渗透测试、代码审计skill（比如里面都是xx漏洞skill），基本上都是给AI降智，限制了发挥，属于大专生/本科生教博士生做事。AI见过的漏洞类型你或许都没见过。skill重点是思维。
+实际上不太建议高级模型装载一些所谓的skills，基本上都是给AI降智，限制了发挥，属于大专生/本科生教博士生做事。AI见过的漏洞类型你或许都没见过。skill重点是思维。
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
@@ -134,9 +134,7 @@
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | --------------------------------------------- | --- |
 | 单兵作战武器库，你值得拥有 | https://github.com/yaklang/yakit | 2026-06-08 |
-| reconFTW 集成了30个工具的信息收集利器 | https://github.com/six2dez/reconftw | 2026-05-15 |
 | ScopeSentry-网络空间测绘、子域名枚举、端口扫描、敏感信息发现、漏洞扫描、分布式节点 | https://github.com/Autumn-27/ScopeSentry-Scan | 2026-05-14 |
-| 一个漏洞扫描器粘合剂,添加目标后30款工具自动调用 | https://github.com/78778443/QingScan | 2026-05-06 |
 | 安全服务集成化工具平台 | https://github.com/qiwentaidi/Slack | 2026-04-29 |
 | 自动化侦查框架 | https://github.com/yogeshojha/rengine | 2026-03-21 |
 | CyberEdge 是一款精心设计的互联网资产测绘工具，为网络安全专业人士提供精准、高效的扫描体验。 | https://github.com/Symph0nia/CyberEdge | 2026-02-11 |
@@ -146,13 +144,10 @@
 | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、端口扫描、批量信息权重查询、密码字典等功能 | https://github.com/kkbo8005/mitan | 2025-05-10 |
 | 一款GUI界面的渗透工具，将部分人工经验转换为自动化，集成了渗透过程中常用到的一些功能，目前集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能，后续会持续更新。 | https://github.com/lz520520/railgun | 2025-01-17 |
 | dddd是一款使用简单的批量信息收集,供应链漏洞探测工具，旨在优化红队工作流，减少伤肝的机械性操作。支持从Hunter、Fofa批量拉取目标 | https://github.com/SleepingBag945/dddd | 2024-08-02 |
-| 集成 vscan、nuclei、ksubdomain、subfinder等，充分自动化、智能化 并对这些集成的项目进行代码级别优化、参数优化，个别模块,如 vscan filefuzz部分进行了重写 | https://github.com/GhostTroops/scan4all | 2024-07-12 |
 | 一条龙服务，只需要输入根域名即可全方位收集相关资产，并检测漏洞。也可以输入多个域名、C段IP等，具体案例见下文。 | https://github.com/0x727/ShuiZe_0x727 | 2024-06-13 |
-| 可针对指定IP段、资产清单、存活网段自动化进行端口扫描以及TCP指纹识别和Banner抓取 | https://github.com/lcvvvv/kscan | 2023-08-22 |
 | DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、企业微信通知。 | https://github.com/Bywalks/DarkAngel | 2023-08-17 |
 | 分布式资产信息收集和漏洞扫描平台 | https://github.com/1in9e/gosint | 2023-03-03 |
 | 从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统 | https://github.com/CTF-MissFeng/bayonet | 2022-11-22 |
-| 一个高度可定制Web自动化扫描框架 | https://github.com/r3curs1v3-pr0xy/vajra | 2021-10-29 |
 
 # 🔍 信息收集工具
 
@@ -161,20 +156,14 @@
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ---------------------------------------- | ----------------------------------------------- | --- |
-| reconFTW 集成了30个工具的信息收集利器 | https://github.com/six2dez/reconftw | 2026-05-15 |
 | 一款基于各大企业信息API的工具 | https://github.com/wgpsec/ENScan_GO | 2026-03-30 |
 | 从多个网站提取目标相关信息 | https://github.com/lc/gau | 2026-03-20 |
 | 一个简单实用的FOFA客户端 By flashine | https://github.com/wgpsec/fofa_viewer | 2025-12-26 |
 | 基于斗象灯塔ARL修改后的版本。相比原版，增加了OneForAll、中央数据库，修改了altDns | https://github.com/ki9mu/ARL-plus-docker | 2025-06-26 |
-| 调用fofa\ZoomEye\360quake的官方api---GUI界面 | https://github.com/xzajyjs/ThunderSearch | 2024-12-06 |
-| 0_zone_zpi脚本 | https://github.com/lemonlove7/0_zone | 2024-06-05 |
 | 从第三方平台获取目标网页内容 | https://github.com/tomnomnom/waybackurls | 2024-05-01 |
 | 集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。 | https://github.com/ExpLangcn/InfoSearchAll | 2023-11-29 |
-| icp备案查询、企业资产快速收集工具 | https://github.com/SiJiDo/IEyes | 2023-09-01 |
 | 集成多个网络资产测绘平台的搜索工具 | https://github.com/Kento-Sec/AsamF | 2023-08-24 |
 | 资产无限巡航扫描系统 | https://github.com/awake1t/linglong | 2022-04-19 |
-| 灯塔（最新版）指纹添加脚本！ | https://github.com/loecho-sec/ARL-Finger-ADD | 2021-08-12 |
-| SRC子域名资产监控 | https://github.com/LangziFun/LangSrcCurise | 2021-01-14 |
 | 快速侦察与目标关联的互联网资产，构建基础资产信息库。 | https://github.com/TophantTechnology/ARL | - |
 | 集成GoogleHacking语法来进行信息收集 | https://github.com/TebbaaX/GRecon | - |
 
@@ -189,7 +178,6 @@
 | 好用且强大的子域名扫描工具 | https://github.com/yunxu1/dnsub | 2021-04-08 |
 | src子域名监控 | https://github.com/LangziFun/LangSrcCurise | 2021-01-14 |
 | Layer子域名挖掘机 | https://github.com/euphrat1ca/LayerDomainFinder | 2019-07-17 |
-| 在线子域名收集 | https://rapiddns.io/subdomain | - |
 
 
 ## 目录扫描工具
@@ -205,13 +193,6 @@
 | dontgo403 是一个绕过 40X 错误的工具。 | https://github.com/devploit/dontgo403 | 2026-04-12 |
 | 一个高级web目录、文件扫描工具 | https://github.com/H4ckForJob/dirmap | 2025-10-21 |
 | 通过提取自动加载和静态地址中的JS和页面内容，解析Webpack打包和使用正则匹配技术，发现API接口及Base URL。 | https://github.com/0x727/ChkApi_0x727 | 2025-01-20 |
-| 网站的敏感目录发掘工具 | https://github.com/deibit/cansina | 2024-06-07 |
-| 从JavaScript中提取URL、路径、机密和其他有趣的部分 | https://github.com/BishopFox/jsluice | 2024-05-22 |
-| 爬虫 可以发现搜索引擎发现不了的目录 | https://github.com/jaeles-project/gospider | 2024-04-21 |
-| 类似JSFinder的golang实现，更快更全更舒服 | https://github.com/pingc0y/URLFinder | 2024-01-05 |
-| 爬网站JS文件，自动fuzz api接口，指定api接口（针对前后端分离项目，可指定后端接口地址），回显api响应 | https://github.com/ttstormxx/jjjjjjjjjjjjjs | 2023-07-20 |
-| Fast passive URL enumeration tool. | https://github.com/chainreactors/urlfounder | 2023-06-06 |
-| 使用GoLang开发的目录/子域扫描器 | https://github.com/ReddyyZ/urlbrute | 2020-12-05 |
 | 御剑目录扫描专业版 | https://github.com/foryujian/yjdirscan | 2020-10-25 |
 | 御剑后台扫描工具珍藏版 | https://www.fujieace.com/hacker/tools/yujian.html | - |
 
@@ -229,7 +210,6 @@
 | TideFinger——指纹识别小工具，汲取整合了多个web指纹库 | https://github.com/TideSec/TideFinger | 2023-05-23 |
 | 功能齐全的Web指纹识别和分享平台，内置了一万多条互联网开源的指纹信息。 | https://github.com/b1ackc4t/14Finger | 2022-07-17 |
 | Glass是一款针对资产列表的快速指纹识别工具 | https://github.com/s7ckTeam/Glass | 2022-01-26 |
-| 跨平台指纹识别工具 | https://github.com/0x727/ObserverWard | - |
 
 
 
@@ -242,10 +222,6 @@
 | **MX1014** 是一个遵循 **“短平快”** 原则的灵活、轻便和快速端口扫描器 (满足红队需求的出网测试、网段探测和快速高危端口扫描等需求) | https://github.com/L-codes/MX1014 | 2025-05-28 |
 | 使用Golang开发的高并发网络扫描、服务探测工具 | https://github.com/Adminisme/ServerScan | 2024-06-16 |
 | TXPortMap 实用型的端口扫描、服务识别工具 | https://github.com/4dogs-cn/TXPortMap | 2023-10-27 |
-| gonmap是一个go语言的nmap端口扫描库 | https://github.com/lcvvvv/gonmap | 2022-11-04 |
-| 光速扫描 | http://pan.baidu.com/s/1pLjaQKF | - |
-| 在线端口扫描1 | http://coolaf.com/tool/port | - |
-| 在线端口扫描2 | http://tool.cc/port/ | - |
 
 
 
@@ -290,11 +266,6 @@
 | 一款基于BurpSuite的被动式FastJson检测插件 | https://github.com/pmiaowu/BurpFastJsonScan | 2022-10-01 |
 | 伪造ip地址 | https://github.com/TheKingOfDuck/burpFakeIP | 2022-09-29 |
 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为dhcp、ibatis、c3p0 | https://github.com/skisw/fastjson-exp | 2022-03-15 |
-| 自动发送请求 | https://github.com/nccgroup/AutoRepeater | 2021-12-15 |
-| 一个简单的Fastjson反序列化检测burp插件 | https://github.com/Maskhe/FastjsonScan | 2021-06-18 |
-| GadgetProbe Burp插件 用来爆破远程类查找Java反序列化 | https://github.com/BishopFox/GadgetProbe | 2021-03-04 |
-| 用于在所有请求中自动执行 SSRF 检测 | https://github.com/ethicalhackingplayground/ssrf-king | 2021-01-20 |
-| Tls指纹特征绕过插件\ | Bypass | burp-awesome-tls |
 
 
 ## 浏览器插件
@@ -311,8 +282,6 @@
 | 一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。 | https://github.com/graynjo/Heimdallr | 2023-01-19 |
 | Chrome插件.使用DevTools查找DOM XSS | https://github.com/filedescriptor/untrusted-types | 2022-07-04 |
 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件 | https://github.com/fofapro/fofa_view | 2022-02-16 |
-| Git History 查看git存储库文件的历史记录 | https://githistory.xyz/ | - |
-| SourceDetector是一个自动发现.map文件，并帮你下载到本地的一个chrome extension。 | https://github.com/Lz1y/SourceDetector-dist | - |
 
 ## 邮箱&钓鱼
 
@@ -331,8 +300,6 @@
 | 剑指钓鱼基建快速部署自动化 | https://github.com/taielab/Taie-AutoPhishing | 2021-03-29 |
 | 图标提取 | https://github.com/JarlPenguin/BeCyIconGrabberPortable | 2019-06-30 |
 | 图标替换 | https://github.com/guitarfreak/SetIcon | 2018-08-20 |
-| 一个在线的任意发件人发送Email邮件网站 | http://tool.chacuo.net/mailanonymous | - |
-| 批量发送钓鱼邮箱 | https://github.com/Yang0615777/sendMail | - |
 
 ## 社工个人信息收集类
 
@@ -345,9 +312,6 @@
 | 输入人名或邮箱地址, 自动从互联网爬取关于此人的信息 | https://github.com/famavott/osint-scraper | 2022-12-07 |
 | 通过脉脉用户猜测企业邮箱 | https://github.com/Ridter/Mailget | 2020-05-07 |
 | 从部分站点中收集个人信息 | https://github.com/n0tr00t/Sreg | 2019-10-31 |
-| 密码泄露搜集 | https://archive.org/search.php?query= | - |
-| 在线密码生成器 | https://zzzteph.github.io/weakpass/ | - |
-|  |  | - |
 
 ## APP/公众号/小程序相关工具
 
@@ -369,8 +333,6 @@
 | Resources移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具 | https://github.com/kelvinBen/AppInfoScanner | 2022-12-18 |
 | 微信小程序主包解密工具 | https://github.com/BlackTrace/pc_wxapkg_decrypt | 2020-08-06 |
 | 微信小程序反编译 | https://github.com/qwerty472123/wxappUnpacker | 2020-04-18 |
-| 微信小程序反编译 | https://github.com/r3x5ur/wxapkg-unpacker | - |
-
 
 
 ## 常用小工具
@@ -428,7 +390,6 @@
 | Confluence CVE 2021，2022，2023 利用工具，支持命令执行，哥斯拉，冰蝎 内存马注入 | https://github.com/Lotus6/ConfluenceMemshell | 2024-02-01 |
 | weblogic 漏洞扫描工具。包含2020 | https://github.com/0xn0ne/weblogicScanner | 2023-11-24 |
 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等（深信服深蓝实验室天威战队强力驱动） | https://github.com/KimJun1010/WeblogicTool | 2023-11-01 |
-| WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等（深信服深蓝实验室天威战队强力驱动） | https://github.com/KimJun1010/WeblogicTool | 2023-11-01 |
 | Nacos JRaft Hessian 反序列化 RCE 加载字节码 注入内存马 不出网利用 | https://github.com/c0olw/NacosRce | 2023-07-07 |
 | Spring漏洞综合利用工具 | https://github.com/savior-only/Spring_All_Reachable | 2023-07-05 |
 | Weblogic一键漏洞检测工具，V1.5，更新时间：20200730 | https://github.com/rabbitmask/WeblogicScan | 2023-05-22 |
@@ -440,10 +401,7 @@
 | ResourcesYApi接口管理平台远程命令执行 | https://github.com/Tas9er/YApiRCE | 2021-07-28 |
 | Struts2-Scan Struts2全漏洞扫描利用工具 | https://github.com/HatBoy/Struts2-Scan | 2021-07-12 |
 | Jboss（和 Java 反序列化漏洞）验证和利用工具 | https://github.com/joaomatosf/jexboss | 2020-01-21 |
-| shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马） | https://github.com/j1anFen/shiro_attack | - |
-|  |  | - |
-| jenkins-attack-framework 针对 Jenkins 的攻击框架 | https://github.com/Accenture | - |
-| Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用 | https://github.com/charonlight/NacosExploitGUI | - |
+
 
 ## 重点cms利用工具
 
@@ -462,8 +420,6 @@
 | 致远OA综合利用工具GUI-V1.0 | https://github.com/God-Ok/SeeyonExploit-GUI | 2021-07-07 |
 | 致远OA综合利用工具 | https://github.com/Summer177/seeyon_exp | 2021-06-03 |
 | 通达OA综合利用工具 | https://github.com/xinyu2428/TDOA_RCE | 2021-03-17 |
-| 蓝凌OA漏洞利用工具/前台无条件RCE/文件写入 | https://github.com/yuanhaiGreg/LandrayExploit | - |
-| 泛微OA漏洞综合利用脚本 | https://github.com/z1un/weaver_exp | - |
 
 ## 信息泄露利用工具
 
@@ -506,7 +462,6 @@
 | Redis未授权访问漏洞利用工具2 | https://github.com/Ridter/redis-rce | 2021-11-30 |
 | sqlserver利用工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作。 | https://github.com/uknowsec/SharpSQLTools | 2021-08-05 |
 | 通过套接字重用通过受损的 Microsoft SQL Server  在受限环境中执行横向移动 | https://github.com/blackarrowsec/mssqlproxy | 2021-02-16 |
-| Team IDE 工具 集成MySql、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch等管理工具 | https://github.com/team-ide/ | - |
 
 ## 爆破利用工具
 
@@ -537,7 +492,6 @@
 | Fuzz 字典,一个就够了 | https://github.com/TheKingOfDuck/fuzzDicts | 2023-11-13 |
 | 渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目 | https://github.com/insightglacier/Dictionary-Of-Pentesting | 2023-07-21 |
 | 提取收集以往泄露的密码中符合条件的强弱密码 | https://github.com/r35tart/RW_Password | 2019-04-01 |
-| 基于实战沉淀下的各种弱口令字典 | https://github.com/fuzz-security/SuperWordlist | - |
 
 ## 常规漏洞利用工具
 
@@ -570,6 +524,7 @@
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --- |
+| 没什么讲的，其他的你可以不会用，Ar3h出品的你不能不会 | https://github.com/vulhub/java-chains | 2026-06-03 |
 | JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具。 | https://github.com/qi4L/JYso | 2026-06-03 |
 | ysoserial修改版，着重修改`ysoserial.payloads.util.Gadgets.createTemplatesImpl`使其可以通过引入自定义class的形式来执行命令、内存马、反序列化回显 | https://github.com/Y4er/ysoserial | 2026-05-26 |
 | 原版反序列化利用工具 | https://github.com/frohoff/ysoserial | 2025-12-04 |
@@ -582,14 +537,12 @@
 | MySQL Fake Server (纯Java实现，内置常见Java反序列化Payload，支持GUI版和命令行版，提供Dockerfile) | https://github.com/4ra1n/mysql-fake-server | 2023-09-18 |
 | rmi打内存马工具，适用于目标用不了ldap的情况 | https://github.com/novysodope/RMI_Inj_MemShell | 2023-07-12 |
 | 解决FastJson、Jackson、Log4j2、原生JNDI注入漏洞的高版本JDKBypass利用，探测本地可用反序列化gadget达到命令执行、回显命令执行、内存马注入 | https://github.com/exp1orer/JNDI-Inject-Exploit | 2022-01-26 |
-| 项目为 ysoserial [su18] 专版，取名为 ysuserial ，在原项目 [ysoserial](https://github.com/frohoff/ysoserial) 基础上魔改而来 | https://github.com/su18/ysoserial/ | - |
-| jndi注入工具v1.4 | https://github.com/WhiteHSBG/JNDIExploit | - |
-| 魔改版ysoserial，有更多方便的命令 | https://kgithub.com/woodpecker-framework/ysoserial-for-woodpecker | - |
 
 ## 内存马注入工具
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ---------------------------------------- | ---------------------------------------------------------- | --- |
+| 最好用的内存马注入工具 | https://github.com/ReaJason/MemShellParty | 2025-08-21 |
 | 一款支持高度自定义的 Java 内存马生成工具 | https://github.com/pen4uin/java-memshell-generator-release | 2025-08-21 |
 | 多功能 java agent 内存马 | https://github.com/veo/vagent | 2023-10-08 |
 | 用Java agent实现内存马等功能 | https://github.com/ethushiroha/JavaAgentTools | 2023-07-27 |
@@ -752,7 +705,6 @@
 | 基于golang实现的impacket | https://github.com/Amzza0x00/go-impacket | 2023-08-28 |
 | 一款CS后渗透模块插件，让大家使用一款插件就够了 | https://github.com/d3ckx1/OLa | 2022-08-15 |
 | 绕过虚拟机登录验证屏幕的工具 | https://github.com/hzphreak/VMInjector | 2012-11-14 |
-| 常见横向移动与域控权限维持方法 | https://xz.aliyun.com/t/9382 | - |
 
 ## 域渗透工具
 
@@ -782,7 +734,6 @@
 | 一键辅助抓取360安全浏览器密码的CobaltStrike脚本以及解密小工具 | https://github.com/hayasec/360SafeBrowsergetpass | 2021-04-04 |
 | FakeLogonScreen 是一个伪造 Windows 登录屏幕以获取用户密码的实用程序。输入的密码将根据 Active Directory 或本地计算机进行验证，以确保其正确，然后显示到控制台或保存到磁盘。 | https://github.com/bitsadmin/fakelogonscreen | 2020-02-03 |
 | 解密浏览器数据（密码\ | 历史记录\ | 书签 \ | 信用卡 \ | 下载记录）的导出工具，支持全平台主流浏览器。 | https://github.com/moonD4rk/HackBrowserData/ | HackBrowserData |
-| 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息 | https://github.com/AdminTest0/SharpWxDump | - |
 
 ## 隧道代理工具
 
