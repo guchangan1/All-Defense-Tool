@@ -102,6 +102,7 @@
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------- | ---------- |
 | Shannon 是一款用于 Web 应用和 API 的完全自主 AI 渗透测试工具。 | https://github.com/KeygraphHQ/shannon | 2026-07-04 |
+| Darkmoon 是开源（GPL-3.0）自主 AI 渗透测试平台与 MCP 宿主，按技术栈分工的攻击子代理（GraphQL/Spring/.NET/Node/PHP/Ruby/WordPress），覆盖 Active Directory 与 Kubernetes，编排 80+ 工具，每个漏洞附带证据链，并内置本地隐私网关使模型永不接触真实敏感值。 | https://github.com/ASCIT31/Dark-Moon | 2026-07-09 |
 | Strix 是自主运行的 AI 代理，它们的行为就像真正的黑客一样——动态运行您的代码，发现漏洞，并通过实际的概念验证进行验证。 | https://github.com/usestrix/strix | 2026-07-03 |
 
 ## AI 安全攻防相关Plugins/Skill/MCP
