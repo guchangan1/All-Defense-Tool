@@ -111,6 +111,7 @@
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| REA：面向 AI 编程助手的本地逆向工程 CLI 与 MCP 服务，支持原生二进制、JavaScript/Electron 和 .NET 分析，保留证据来源与分析局限；原生深度分析需自备 Hopper、Ghidra 或 IDA | https://github.com/morluto/rea | 2026-10-09 |
 | 可以反编译Android APK/XAPK/JAR/AAR文件，并**提取**应用程序使用的**HTTP API——**改装端点、OkHttp调用、硬编码URL、身份验证模式 | https://github.com/SimoneAvogadro/android-reverse-engineering-skill | 2026-09-30 |
 | 结合chrome-devtools-mcp的能力并加上Skill的规范，实现JSRPC+Flask+autoDecoder方案的前端JS逆向自动化分析，提升JS逆向的效率 | https://github.com/Fausto-404/js-reverse-automation--skill | 2026-09-18 |
 | **WooYun Legacy** 是一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 插件，基于 WooYun（2010-2016）收录的 22,132 个业务逻辑漏洞案例，为 Claude 的安全测试输出注入**真实公司案例引用**、**量化统计数据**和**数据驱动的测试优先级排序**。 | https://github.com/tanweai/wooyun-legacy | 2026-07-14 |
