@@ -102,16 +102,19 @@
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------- | ---------- |
 | Strix 是自主运行的 AI 代理，它们的行为就像真正的黑客一样——动态运行您的代码，发现漏洞，并通过实际的概念验证进行验证。 | https://github.com/usestrix/strix | 2026-10-11 |
+| Artex 原作者（autumn27）已删库 | https://github.com/mhtsec/ARTEX | 2026-10-10 |
 | redamon 是一款由AI驱动的redteam框架，能够全自动地执行各种攻击性安全操作——从信息收集、漏洞利用到后渗透，完全不需要人工干预。 | https://github.com/samugit83/redamon | 2026-10-08 |
 | Shannon 是一款用于 Web 应用和 API 的完全自主 AI 渗透测试工具。 | https://github.com/KeygraphHQ/shannon | 2026-10-08 |
-
+| Darkmoon 是开源（GPL-3.0）自主 AI 渗透测试平台与 MCP 宿主，按技术栈分工的攻击子代理（GraphQL/Spring/.NET/Node/PHP/Ruby/WordPress），覆盖 Active Directory 与 Kubernetes，编排 80+ 工具，每个漏洞附带证据链，并内置本地隐私网关使模型永不接触真实敏感值。 | https://github.com/ASCIT31/Dark-Moon | 2026-09-26 |
+| Cairn是一种通用的AI状态空间搜索引擎 | https://github.com/oritera/Cairn | 2026-08-09 |
 ## AI 安全攻防相关Plugins/Skill/MCP
 
 实际上不太建议高级模型装载一些所谓的skills，基本上都是给AI降智，限制了发挥，属于大专生/本科生教博士生做事。AI见过的漏洞类型你或许都没见过。skill重点是思维。
 
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| 可以反编译Android APK/XAPK/JAR/AAR文件，并**提取**应用程序使用的**HTTP API——**改装端点、OkHttp调用、硬编码URL、身份验证模式 | https://github.com/SimoneAvogadro/android-reverse-engineering-skill | 2026-10-11 |
+| REA：面向 AI 编程助手的本地逆向工程 CLI 与 MCP 服务，支持原生二进制、JavaScript/Electron 和 .NET 分析，保留证据来源与分析局限；原生深度分析需自备 Hopper、Ghidra 或 IDA | https://github.com/morluto/rea | 2026-10-12 |
+| 可以反编译Android APK/XAPK/JAR/AAR文件，并提取应用程序使用的HTTP API——改装端点、OkHttp调用、硬编码URL、身份验证模式 | https://github.com/SimoneAvogadro/android-reverse-engineering-skill | 2026-10-11 |
 | 结合chrome-devtools-mcp的能力并加上Skill的规范，实现JSRPC+Flask+autoDecoder方案的前端JS逆向自动化分析，提升JS逆向的效率 | https://github.com/Fausto-404/js-reverse-automation--skill | 2026-10-10 |
 | **WooYun Legacy** 是一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 插件，基于 WooYun（2010-2016）收录的 22,132 个业务逻辑漏洞案例，为 Claude 的安全测试输出注入**真实公司案例引用**、**量化统计数据**和**数据驱动的测试优先级排序**。 | https://github.com/tanweai/wooyun-legacy | 2026-07-14 |
 | 基于 Claude Code 的免杀技术研究与 Shellcode Loader 生成框架。 | https://github.com/JDArmy/Evasion-SubAgents | 2026-04-09 |
@@ -802,6 +805,7 @@
 | 项目简介 | 项目地址 | 最近更新 |
 | ------------------------------------------------------------ | ---------------------------------------- | --- |
 | 命令行全局代理--跨平台通用 | https://github.com/rofl0r/proxychains-ng | 2026-10-06 |
+| 从 700+ 公开来源收集 HTTP/SOCKS4/SOCKS5 代理并逐一验证（协议握手、双站点出口 IP 一致性检测以过滤蜜罐、页面内容逐字节比对以过滤注入脚本、HTTPS 证书校验），自带本地轮换代理服务器（HTTP + SOCKS5，可设密码）和每小时更新的公开列表 | https://github.com/maximilianfeix/proxy-scraper | 2026-10-11 |
 | 一款功能强大的代理检查和IP地址轮转工具 | https://github.com/kitabisa/mubeng | 2026-09-10 |
 | Python爬虫代理IP池(proxy pool) | https://github.com/jhao104/proxy_pool | 2026-06-15 |
 | deadpool代理池工具，可从hunter、quake、fofa等网络空间测绘平台取高质量socks5代理，或本地导入socks5代理，轮询使用代理进行流量转发。 | https://github.com/thinkoaa/Deadpool | 2026-05-06 |
